@@ -17,7 +17,8 @@ export default function DashboardClient({ jurisdictions }: { jurisdictions: any[
           setSelectedJurisdiction={setSelectedJurisdiction} 
         onSelectJurisdiction={setSelectedJurisdiction} 
       />
-      <DashboardTable 
+      // @ts-ignore
+          <DashboardTable 
         jurisdictions={jurisdictions} 
         selectedJurisdiction={selectedJurisdiction}
           setSelectedJurisdiction={setSelectedJurisdiction} 

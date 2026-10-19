@@ -27,13 +27,13 @@ export default function MapComponent({ jurisdictions, onSelectJurisdiction }: {
   const labelGeoJson = useMemo(() => {
     if (!geoJsonData) return null;
     const seen = new Set();
-    const features = geoJsonData.features.filter(f => {
+    const features = geoJsonData.features.filter((f: any) => {
       const id = f.properties.matchedSlug || f.properties.name;
       if (seen.has(id)) return false;
       seen.add(id);
       return true;
     });
-    return { type: 'FeatureCollection', features };
+    return { type: 'FeatureCollection' as const, features };
   }, [geoJsonData]);
 
   useEffect(() => {
@@ -79,7 +79,7 @@ export default function MapComponent({ jurisdictions, onSelectJurisdiction }: {
           };
         });
 
-        setGeoJsonData({ type: 'FeatureCollection', features: validFeatures });
+        setGeoJsonData({ type: 'FeatureCollection' as const, features: validFeatures });
       })
       .catch(err => console.error('❌ Failed to load GeoJSON:', err));
   }, [jurisdictions]);

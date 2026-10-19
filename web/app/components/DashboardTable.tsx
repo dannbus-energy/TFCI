@@ -6,13 +6,7 @@ import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Responsi
 
 import { useState, useMemo } from 'react';
 
-export default function DashboardTable({ 
-  jurisdictions, 
-  selectedJurisdiction, 
-  onSelectJurisdiction 
-,
-  setSelectedJurisdiction
-}: { 
+export default function DashboardTable({ jurisdictions, selectedJurisdiction, setSelectedJurisdiction, onSelectJurisdiction }: { 
   jurisdictions: any[], 
   selectedJurisdiction: string | null,
   setSelectedJurisdiction: (slug: string | null) => void, 

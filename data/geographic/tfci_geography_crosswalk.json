@@ -1,0 +1,1661 @@
+{
+  "schemaVersion": "0.1",
+  "jurisdictions": {
+    "united-states": {
+      "tfciSlug": "united-states",
+      "iso2": "US",
+      "iso3": "USA",
+      "boundaryFeatureId": "US",
+      "centroidKey": "united-states",
+      "mapRepresentation": "polygon"
+    },
+    "china": {
+      "tfciSlug": "china",
+      "iso2": "CN",
+      "iso3": "CHN",
+      "boundaryFeatureId": "CN",
+      "centroidKey": "china",
+      "mapRepresentation": "polygon"
+    },
+    "germany": {
+      "tfciSlug": "germany",
+      "iso2": "DE",
+      "iso3": "DEU",
+      "boundaryFeatureId": "DE",
+      "centroidKey": "germany",
+      "mapRepresentation": "polygon"
+    },
+    "india": {
+      "tfciSlug": "india",
+      "iso2": "IN",
+      "iso3": "IND",
+      "boundaryFeatureId": "IN",
+      "centroidKey": "india",
+      "mapRepresentation": "polygon"
+    },
+    "japan": {
+      "tfciSlug": "japan",
+      "iso2": "JP",
+      "iso3": "JPN",
+      "boundaryFeatureId": "JP",
+      "centroidKey": "japan",
+      "mapRepresentation": "polygon"
+    },
+    "united-kingdom": {
+      "tfciSlug": "united-kingdom",
+      "iso2": "GB",
+      "iso3": "GBR",
+      "boundaryFeatureId": "GB",
+      "centroidKey": "united-kingdom",
+      "mapRepresentation": "polygon"
+    },
+    "france": {
+      "tfciSlug": "france",
+      "iso2": "FR",
+      "iso3": "FRA",
+      "boundaryFeatureId": null,
+      "centroidKey": "france",
+      "mapRepresentation": "point-marker"
+    },
+    "italy": {
+      "tfciSlug": "italy",
+      "iso2": "IT",
+      "iso3": "ITA",
+      "boundaryFeatureId": "IT",
+      "centroidKey": "italy",
+      "mapRepresentation": "polygon"
+    },
+    "brazil": {
+      "tfciSlug": "brazil",
+      "iso2": "BR",
+      "iso3": "BRA",
+      "boundaryFeatureId": "BR",
+      "centroidKey": "brazil",
+      "mapRepresentation": "polygon"
+    },
+    "canada": {
+      "tfciSlug": "canada",
+      "iso2": "CA",
+      "iso3": "CAN",
+      "boundaryFeatureId": "CA",
+      "centroidKey": "canada",
+      "mapRepresentation": "polygon"
+    },
+    "poland": {
+      "tfciSlug": "poland",
+      "iso2": "PL",
+      "iso3": "POL",
+      "boundaryFeatureId": "PL",
+      "centroidKey": "poland",
+      "mapRepresentation": "polygon"
+    },
+    "sweden": {
+      "tfciSlug": "sweden",
+      "iso2": "SE",
+      "iso3": "SWE",
+      "boundaryFeatureId": "SE",
+      "centroidKey": "sweden",
+      "mapRepresentation": "polygon"
+    },
+    "switzerland": {
+      "tfciSlug": "switzerland",
+      "iso2": "CH",
+      "iso3": "CHE",
+      "boundaryFeatureId": "CH",
+      "centroidKey": "switzerland",
+      "mapRepresentation": "polygon"
+    },
+    "austria": {
+      "tfciSlug": "austria",
+      "iso2": "AT",
+      "iso3": "AUT",
+      "boundaryFeatureId": "AT",
+      "centroidKey": "austria",
+      "mapRepresentation": "polygon"
+    },
+    "belgium": {
+      "tfciSlug": "belgium",
+      "iso2": "BE",
+      "iso3": "BEL",
+      "boundaryFeatureId": "BE",
+      "centroidKey": "belgium",
+      "mapRepresentation": "polygon"
+    },
+    "denmark": {
+      "tfciSlug": "denmark",
+      "iso2": "DK",
+      "iso3": "DNK",
+      "boundaryFeatureId": "DK",
+      "centroidKey": "denmark",
+      "mapRepresentation": "polygon"
+    },
+    "singapore": {
+      "tfciSlug": "singapore",
+      "iso2": "SG",
+      "iso3": "SGP",
+      "boundaryFeatureId": null,
+      "centroidKey": "singapore",
+      "mapRepresentation": "point-marker"
+    },
+    "finland": {
+      "tfciSlug": "finland",
+      "iso2": "FI",
+      "iso3": "FIN",
+      "boundaryFeatureId": "FI",
+      "centroidKey": "finland",
+      "mapRepresentation": "polygon"
+    },
+    "ireland": {
+      "tfciSlug": "ireland",
+      "iso2": "IE",
+      "iso3": "IRL",
+      "boundaryFeatureId": "IE",
+      "centroidKey": "ireland",
+      "mapRepresentation": "polygon"
+    },
+    "portugal": {
+      "tfciSlug": "portugal",
+      "iso2": "PT",
+      "iso3": "PRT",
+      "boundaryFeatureId": "PT",
+      "centroidKey": "portugal",
+      "mapRepresentation": "polygon"
+    },
+    "greece": {
+      "tfciSlug": "greece",
+      "iso2": "GR",
+      "iso3": "GRC",
+      "boundaryFeatureId": "GR",
+      "centroidKey": "greece",
+      "mapRepresentation": "polygon"
+    },
+    "israel": {
+      "tfciSlug": "israel",
+      "iso2": "IL",
+      "iso3": "ISR",
+      "boundaryFeatureId": "IL",
+      "centroidKey": "israel",
+      "mapRepresentation": "polygon"
+    },
+    "united-arab-emirates": {
+      "tfciSlug": "united-arab-emirates",
+      "iso2": "AE",
+      "iso3": "ARE",
+      "boundaryFeatureId": "AE",
+      "centroidKey": "united-arab-emirates",
+      "mapRepresentation": "polygon"
+    },
+    "spain": {
+      "tfciSlug": "spain",
+      "iso2": "ES",
+      "iso3": "ESP",
+      "boundaryFeatureId": "ES",
+      "centroidKey": "spain",
+      "mapRepresentation": "polygon"
+    },
+    "turkiye": {
+      "tfciSlug": "turkiye",
+      "iso2": "TR",
+      "iso3": "TUR",
+      "boundaryFeatureId": "TR",
+      "centroidKey": "turkiye",
+      "mapRepresentation": "polygon"
+    },
+    "netherlands": {
+      "tfciSlug": "netherlands",
+      "iso2": "NL",
+      "iso3": "NLD",
+      "boundaryFeatureId": "NL",
+      "centroidKey": "netherlands",
+      "mapRepresentation": "polygon"
+    },
+    "argentina": {
+      "tfciSlug": "argentina",
+      "iso2": "AR",
+      "iso3": "ARG",
+      "boundaryFeatureId": "AR",
+      "centroidKey": "argentina",
+      "mapRepresentation": "polygon"
+    },
+    "norway": {
+      "tfciSlug": "norway",
+      "iso2": "NO",
+      "iso3": "NOR",
+      "boundaryFeatureId": null,
+      "centroidKey": "norway",
+      "mapRepresentation": "point-marker"
+    },
+    "russia": {
+      "tfciSlug": "russia",
+      "iso2": "RU",
+      "iso3": "RUS",
+      "boundaryFeatureId": "RU",
+      "centroidKey": "russia",
+      "mapRepresentation": "polygon"
+    },
+    "south-korea": {
+      "tfciSlug": "south-korea",
+      "iso2": "KR",
+      "iso3": "KOR",
+      "boundaryFeatureId": "KR",
+      "centroidKey": "south-korea",
+      "mapRepresentation": "polygon"
+    },
+    "australia": {
+      "tfciSlug": "australia",
+      "iso2": "AU",
+      "iso3": "AUS",
+      "boundaryFeatureId": "AU",
+      "centroidKey": "australia",
+      "mapRepresentation": "polygon"
+    },
+    "saudi-arabia": {
+      "tfciSlug": "saudi-arabia",
+      "iso2": "SA",
+      "iso3": "SAU",
+      "boundaryFeatureId": "SA",
+      "centroidKey": "saudi-arabia",
+      "mapRepresentation": "polygon"
+    },
+    "south-africa": {
+      "tfciSlug": "south-africa",
+      "iso2": "ZA",
+      "iso3": "ZAF",
+      "boundaryFeatureId": "ZA",
+      "centroidKey": "south-africa",
+      "mapRepresentation": "polygon"
+    },
+    "mexico": {
+      "tfciSlug": "mexico",
+      "iso2": "MX",
+      "iso3": "MEX",
+      "boundaryFeatureId": "MX",
+      "centroidKey": "mexico",
+      "mapRepresentation": "polygon"
+    },
+    "indonesia": {
+      "tfciSlug": "indonesia",
+      "iso2": "ID",
+      "iso3": "IDN",
+      "boundaryFeatureId": "ID",
+      "centroidKey": "indonesia",
+      "mapRepresentation": "polygon"
+    },
+    "vietnam": {
+      "tfciSlug": "vietnam",
+      "iso2": "VN",
+      "iso3": "VNM",
+      "boundaryFeatureId": "VN",
+      "centroidKey": "vietnam",
+      "mapRepresentation": "polygon"
+    },
+    "thailand": {
+      "tfciSlug": "thailand",
+      "iso2": "TH",
+      "iso3": "THA",
+      "boundaryFeatureId": "TH",
+      "centroidKey": "thailand",
+      "mapRepresentation": "polygon"
+    },
+    "malaysia": {
+      "tfciSlug": "malaysia",
+      "iso2": "MY",
+      "iso3": "MYS",
+      "boundaryFeatureId": "MY",
+      "centroidKey": "malaysia",
+      "mapRepresentation": "polygon"
+    },
+    "philippines": {
+      "tfciSlug": "philippines",
+      "iso2": "PH",
+      "iso3": "PHL",
+      "boundaryFeatureId": "PH",
+      "centroidKey": "philippines",
+      "mapRepresentation": "polygon"
+    },
+    "bangladesh": {
+      "tfciSlug": "bangladesh",
+      "iso2": "BD",
+      "iso3": "BGD",
+      "boundaryFeatureId": "BD",
+      "centroidKey": "bangladesh",
+      "mapRepresentation": "polygon"
+    },
+    "pakistan": {
+      "tfciSlug": "pakistan",
+      "iso2": "PK",
+      "iso3": "PAK",
+      "boundaryFeatureId": "PK",
+      "centroidKey": "pakistan",
+      "mapRepresentation": "polygon"
+    },
+    "egypt": {
+      "tfciSlug": "egypt",
+      "iso2": "EG",
+      "iso3": "EGY",
+      "boundaryFeatureId": "EG",
+      "centroidKey": "egypt",
+      "mapRepresentation": "polygon"
+    },
+    "nigeria": {
+      "tfciSlug": "nigeria",
+      "iso2": "NG",
+      "iso3": "NGA",
+      "boundaryFeatureId": "NG",
+      "centroidKey": "nigeria",
+      "mapRepresentation": "polygon"
+    },
+    "colombia": {
+      "tfciSlug": "colombia",
+      "iso2": "CO",
+      "iso3": "COL",
+      "boundaryFeatureId": "CO",
+      "centroidKey": "colombia",
+      "mapRepresentation": "polygon"
+    },
+    "chile": {
+      "tfciSlug": "chile",
+      "iso2": "CL",
+      "iso3": "CHL",
+      "boundaryFeatureId": "CL",
+      "centroidKey": "chile",
+      "mapRepresentation": "polygon"
+    },
+    "peru": {
+      "tfciSlug": "peru",
+      "iso2": "PE",
+      "iso3": "PER",
+      "boundaryFeatureId": "PE",
+      "centroidKey": "peru",
+      "mapRepresentation": "polygon"
+    },
+    "romania": {
+      "tfciSlug": "romania",
+      "iso2": "RO",
+      "iso3": "ROU",
+      "boundaryFeatureId": "RO",
+      "centroidKey": "romania",
+      "mapRepresentation": "polygon"
+    },
+    "czechia": {
+      "tfciSlug": "czechia",
+      "iso2": "CZ",
+      "iso3": "CZE",
+      "boundaryFeatureId": "CZ",
+      "centroidKey": "czechia",
+      "mapRepresentation": "polygon"
+    },
+    "hungary": {
+      "tfciSlug": "hungary",
+      "iso2": "HU",
+      "iso3": "HUN",
+      "boundaryFeatureId": "HU",
+      "centroidKey": "hungary",
+      "mapRepresentation": "polygon"
+    },
+    "new-zealand": {
+      "tfciSlug": "new-zealand",
+      "iso2": "NZ",
+      "iso3": "NZL",
+      "boundaryFeatureId": "NZ",
+      "centroidKey": "new-zealand",
+      "mapRepresentation": "polygon"
+    },
+    "slovakia": {
+      "tfciSlug": "slovakia",
+      "iso2": "SK",
+      "iso3": "SVK",
+      "boundaryFeatureId": "SK",
+      "centroidKey": "slovakia",
+      "mapRepresentation": "polygon"
+    },
+    "morocco": {
+      "tfciSlug": "morocco",
+      "iso2": "MA",
+      "iso3": "MAR",
+      "boundaryFeatureId": "MA",
+      "centroidKey": "morocco",
+      "mapRepresentation": "polygon"
+    },
+    "democratic-republic-of-congo": {
+      "tfciSlug": "democratic-republic-of-congo",
+      "iso2": "CD",
+      "iso3": "COD",
+      "boundaryFeatureId": "CD",
+      "centroidKey": "democratic-republic-of-congo",
+      "mapRepresentation": "polygon"
+    },
+    "zambia": {
+      "tfciSlug": "zambia",
+      "iso2": "ZM",
+      "iso3": "ZMB",
+      "boundaryFeatureId": "ZM",
+      "centroidKey": "zambia",
+      "mapRepresentation": "polygon"
+    },
+    "zimbabwe": {
+      "tfciSlug": "zimbabwe",
+      "iso2": "ZW",
+      "iso3": "ZWE",
+      "boundaryFeatureId": "ZW",
+      "centroidKey": "zimbabwe",
+      "mapRepresentation": "polygon"
+    },
+    "botswana": {
+      "tfciSlug": "botswana",
+      "iso2": "BW",
+      "iso3": "BWA",
+      "boundaryFeatureId": "BW",
+      "centroidKey": "botswana",
+      "mapRepresentation": "polygon"
+    },
+    "mongolia": {
+      "tfciSlug": "mongolia",
+      "iso2": "MN",
+      "iso3": "MNG",
+      "boundaryFeatureId": "MN",
+      "centroidKey": "mongolia",
+      "mapRepresentation": "polygon"
+    },
+    "kazakhstan": {
+      "tfciSlug": "kazakhstan",
+      "iso2": "KZ",
+      "iso3": "KAZ",
+      "boundaryFeatureId": "KZ",
+      "centroidKey": "kazakhstan",
+      "mapRepresentation": "polygon"
+    },
+    "uzbekistan": {
+      "tfciSlug": "uzbekistan",
+      "iso2": "UZ",
+      "iso3": "UZB",
+      "boundaryFeatureId": "UZ",
+      "centroidKey": "uzbekistan",
+      "mapRepresentation": "polygon"
+    },
+    "ecuador": {
+      "tfciSlug": "ecuador",
+      "iso2": "EC",
+      "iso3": "ECU",
+      "boundaryFeatureId": "EC",
+      "centroidKey": "ecuador",
+      "mapRepresentation": "polygon"
+    },
+    "bolivia": {
+      "tfciSlug": "bolivia",
+      "iso2": "BO",
+      "iso3": "BOL",
+      "boundaryFeatureId": "BO",
+      "centroidKey": "bolivia",
+      "mapRepresentation": "polygon"
+    },
+    "paraguay": {
+      "tfciSlug": "paraguay",
+      "iso2": "PY",
+      "iso3": "PRY",
+      "boundaryFeatureId": "PY",
+      "centroidKey": "paraguay",
+      "mapRepresentation": "polygon"
+    },
+    "guyana": {
+      "tfciSlug": "guyana",
+      "iso2": "GY",
+      "iso3": "GUY",
+      "boundaryFeatureId": "GY",
+      "centroidKey": "guyana",
+      "mapRepresentation": "polygon"
+    },
+    "qatar": {
+      "tfciSlug": "qatar",
+      "iso2": "QA",
+      "iso3": "QAT",
+      "boundaryFeatureId": "QA",
+      "centroidKey": "qatar",
+      "mapRepresentation": "polygon"
+    },
+    "kuwait": {
+      "tfciSlug": "kuwait",
+      "iso2": "KW",
+      "iso3": "KWT",
+      "boundaryFeatureId": "KW",
+      "centroidKey": "kuwait",
+      "mapRepresentation": "polygon"
+    },
+    "oman": {
+      "tfciSlug": "oman",
+      "iso2": "OM",
+      "iso3": "OMN",
+      "boundaryFeatureId": "OM",
+      "centroidKey": "oman",
+      "mapRepresentation": "polygon"
+    },
+    "algeria": {
+      "tfciSlug": "algeria",
+      "iso2": "DZ",
+      "iso3": "DZA",
+      "boundaryFeatureId": "DZ",
+      "centroidKey": "algeria",
+      "mapRepresentation": "polygon"
+    },
+    "iran": {
+      "tfciSlug": "iran",
+      "iso2": "IR",
+      "iso3": "IRN",
+      "boundaryFeatureId": "IR",
+      "centroidKey": "iran",
+      "mapRepresentation": "polygon"
+    },
+    "iraq": {
+      "tfciSlug": "iraq",
+      "iso2": "IQ",
+      "iso3": "IRQ",
+      "boundaryFeatureId": "IQ",
+      "centroidKey": "iraq",
+      "mapRepresentation": "polygon"
+    },
+    "angola": {
+      "tfciSlug": "angola",
+      "iso2": "AO",
+      "iso3": "AGO",
+      "boundaryFeatureId": "AO",
+      "centroidKey": "angola",
+      "mapRepresentation": "polygon"
+    },
+    "mozambique": {
+      "tfciSlug": "mozambique",
+      "iso2": "MZ",
+      "iso3": "MOZ",
+      "boundaryFeatureId": "MZ",
+      "centroidKey": "mozambique",
+      "mapRepresentation": "polygon"
+    },
+    "namibia": {
+      "tfciSlug": "namibia",
+      "iso2": "NA",
+      "iso3": "NAM",
+      "boundaryFeatureId": "NA",
+      "centroidKey": "namibia",
+      "mapRepresentation": "polygon"
+    },
+    "ghana": {
+      "tfciSlug": "ghana",
+      "iso2": "GH",
+      "iso3": "GHA",
+      "boundaryFeatureId": "GH",
+      "centroidKey": "ghana",
+      "mapRepresentation": "polygon"
+    },
+    "kenya": {
+      "tfciSlug": "kenya",
+      "iso2": "KE",
+      "iso3": "KEN",
+      "boundaryFeatureId": "KE",
+      "centroidKey": "kenya",
+      "mapRepresentation": "polygon"
+    },
+    "cote-divoire": {
+      "tfciSlug": "cote-divoire",
+      "iso2": "CI",
+      "iso3": "CIV",
+      "boundaryFeatureId": "CI",
+      "centroidKey": "cote-divoire",
+      "mapRepresentation": "polygon"
+    },
+    "senegal": {
+      "tfciSlug": "senegal",
+      "iso2": "SN",
+      "iso3": "SEN",
+      "boundaryFeatureId": "SN",
+      "centroidKey": "senegal",
+      "mapRepresentation": "polygon"
+    },
+    "tanzania": {
+      "tfciSlug": "tanzania",
+      "iso2": "TZ",
+      "iso3": "TZA",
+      "boundaryFeatureId": "TZ",
+      "centroidKey": "tanzania",
+      "mapRepresentation": "polygon"
+    },
+    "guinea": {
+      "tfciSlug": "guinea",
+      "iso2": "GN",
+      "iso3": "GIN",
+      "boundaryFeatureId": "GN",
+      "centroidKey": "guinea",
+      "mapRepresentation": "polygon"
+    },
+    "panama": {
+      "tfciSlug": "panama",
+      "iso2": "PA",
+      "iso3": "PAN",
+      "boundaryFeatureId": "PA",
+      "centroidKey": "panama",
+      "mapRepresentation": "polygon"
+    },
+    "costa-rica": {
+      "tfciSlug": "costa-rica",
+      "iso2": "CR",
+      "iso3": "CRI",
+      "boundaryFeatureId": "CR",
+      "centroidKey": "costa-rica",
+      "mapRepresentation": "polygon"
+    },
+    "uruguay": {
+      "tfciSlug": "uruguay",
+      "iso2": "UY",
+      "iso3": "URY",
+      "boundaryFeatureId": "UY",
+      "centroidKey": "uruguay",
+      "mapRepresentation": "polygon"
+    },
+    "dominican-republic": {
+      "tfciSlug": "dominican-republic",
+      "iso2": "DO",
+      "iso3": "DOM",
+      "boundaryFeatureId": "DO",
+      "centroidKey": "dominican-republic",
+      "mapRepresentation": "polygon"
+    },
+    "guatemala": {
+      "tfciSlug": "guatemala",
+      "iso2": "GT",
+      "iso3": "GTM",
+      "boundaryFeatureId": "GT",
+      "centroidKey": "guatemala",
+      "mapRepresentation": "polygon"
+    },
+    "el-salvador": {
+      "tfciSlug": "el-salvador",
+      "iso2": "SV",
+      "iso3": "SLV",
+      "boundaryFeatureId": "SV",
+      "centroidKey": "el-salvador",
+      "mapRepresentation": "polygon"
+    },
+    "ethiopia": {
+      "tfciSlug": "ethiopia",
+      "iso2": "ET",
+      "iso3": "ETH",
+      "boundaryFeatureId": "ET",
+      "centroidKey": "ethiopia",
+      "mapRepresentation": "polygon"
+    },
+    "rwanda": {
+      "tfciSlug": "rwanda",
+      "iso2": "RW",
+      "iso3": "RWA",
+      "boundaryFeatureId": "RW",
+      "centroidKey": "rwanda",
+      "mapRepresentation": "polygon"
+    },
+    "iceland": {
+      "tfciSlug": "iceland",
+      "iso2": "IS",
+      "iso3": "ISL",
+      "boundaryFeatureId": "IS",
+      "centroidKey": "iceland",
+      "mapRepresentation": "polygon"
+    },
+    "estonia": {
+      "tfciSlug": "estonia",
+      "iso2": "EE",
+      "iso3": "EST",
+      "boundaryFeatureId": "EE",
+      "centroidKey": "estonia",
+      "mapRepresentation": "polygon"
+    },
+    "congo-republic": {
+      "tfciSlug": "congo-republic",
+      "iso2": "CG",
+      "iso3": "COG",
+      "boundaryFeatureId": "CG",
+      "centroidKey": "congo-republic",
+      "mapRepresentation": "polygon"
+    },
+    "ukraine": {
+      "tfciSlug": "ukraine",
+      "iso2": "UA",
+      "iso3": "UKR",
+      "boundaryFeatureId": "UA",
+      "centroidKey": "ukraine",
+      "mapRepresentation": "polygon"
+    },
+    "azerbaijan": {
+      "tfciSlug": "azerbaijan",
+      "iso2": "AZ",
+      "iso3": "AZE",
+      "boundaryFeatureId": "AZ",
+      "centroidKey": "azerbaijan",
+      "mapRepresentation": "polygon"
+    },
+    "georgia": {
+      "tfciSlug": "georgia",
+      "iso2": "GE",
+      "iso3": "GEO",
+      "boundaryFeatureId": "GE",
+      "centroidKey": "georgia",
+      "mapRepresentation": "polygon"
+    },
+    "serbia": {
+      "tfciSlug": "serbia",
+      "iso2": "RS",
+      "iso3": "SRB",
+      "boundaryFeatureId": "RS",
+      "centroidKey": "serbia",
+      "mapRepresentation": "polygon"
+    },
+    "croatia": {
+      "tfciSlug": "croatia",
+      "iso2": "HR",
+      "iso3": "HRV",
+      "boundaryFeatureId": "HR",
+      "centroidKey": "croatia",
+      "mapRepresentation": "polygon"
+    },
+    "slovenia": {
+      "tfciSlug": "slovenia",
+      "iso2": "SI",
+      "iso3": "SVN",
+      "boundaryFeatureId": "SI",
+      "centroidKey": "slovenia",
+      "mapRepresentation": "polygon"
+    },
+    "mauritius": {
+      "tfciSlug": "mauritius",
+      "iso2": "MU",
+      "iso3": "MUS",
+      "boundaryFeatureId": null,
+      "centroidKey": "mauritius",
+      "mapRepresentation": "point-marker"
+    },
+    "fiji": {
+      "tfciSlug": "fiji",
+      "iso2": "FJ",
+      "iso3": "FJI",
+      "boundaryFeatureId": "FJ",
+      "centroidKey": "fiji",
+      "mapRepresentation": "polygon"
+    },
+    "trinidad-tobago": {
+      "tfciSlug": "trinidad-tobago",
+      "iso2": "TT",
+      "iso3": "TTO",
+      "boundaryFeatureId": "TT",
+      "centroidKey": "trinidad-tobago",
+      "mapRepresentation": "polygon"
+    },
+    "jamaica": {
+      "tfciSlug": "jamaica",
+      "iso2": "JM",
+      "iso3": "JAM",
+      "boundaryFeatureId": "JM",
+      "centroidKey": "jamaica",
+      "mapRepresentation": "polygon"
+    },
+    "cambodia": {
+      "tfciSlug": "cambodia",
+      "iso2": "KH",
+      "iso3": "KHM",
+      "boundaryFeatureId": "KH",
+      "centroidKey": "cambodia",
+      "mapRepresentation": "polygon"
+    },
+    "sri-lanka": {
+      "tfciSlug": "sri-lanka",
+      "iso2": "LK",
+      "iso3": "LKA",
+      "boundaryFeatureId": "LK",
+      "centroidKey": "sri-lanka",
+      "mapRepresentation": "polygon"
+    },
+    "albania": {
+      "tfciSlug": "albania",
+      "iso2": "AL",
+      "iso3": "ALB",
+      "boundaryFeatureId": "AL",
+      "centroidKey": "albania",
+      "mapRepresentation": "polygon"
+    },
+    "andorra": {
+      "tfciSlug": "andorra",
+      "iso2": "AD",
+      "iso3": "AND",
+      "boundaryFeatureId": null,
+      "centroidKey": "andorra",
+      "mapRepresentation": "point-marker"
+    },
+    "aruba": {
+      "tfciSlug": "aruba",
+      "iso2": "AW",
+      "iso3": "ABW",
+      "boundaryFeatureId": null,
+      "centroidKey": "aruba",
+      "mapRepresentation": "point-marker"
+    },
+    "bahamas": {
+      "tfciSlug": "bahamas",
+      "iso2": "BS",
+      "iso3": "BHS",
+      "boundaryFeatureId": "BS",
+      "centroidKey": "bahamas",
+      "mapRepresentation": "polygon"
+    },
+    "bahrain": {
+      "tfciSlug": "bahrain",
+      "iso2": "BH",
+      "iso3": "BHR",
+      "boundaryFeatureId": null,
+      "centroidKey": "bahrain",
+      "mapRepresentation": "point-marker"
+    },
+    "barbados": {
+      "tfciSlug": "barbados",
+      "iso2": "BB",
+      "iso3": "BRB",
+      "boundaryFeatureId": null,
+      "centroidKey": "barbados",
+      "mapRepresentation": "point-marker"
+    },
+    "belize": {
+      "tfciSlug": "belize",
+      "iso2": "BZ",
+      "iso3": "BLZ",
+      "boundaryFeatureId": "BZ",
+      "centroidKey": "belize",
+      "mapRepresentation": "polygon"
+    },
+    "benin": {
+      "tfciSlug": "benin",
+      "iso2": "BJ",
+      "iso3": "BEN",
+      "boundaryFeatureId": "BJ",
+      "centroidKey": "benin",
+      "mapRepresentation": "polygon"
+    },
+    "bermuda": {
+      "tfciSlug": "bermuda",
+      "iso2": "BM",
+      "iso3": "BMU",
+      "boundaryFeatureId": null,
+      "centroidKey": "bermuda",
+      "mapRepresentation": "point-marker"
+    },
+    "bosnia-herzegovina": {
+      "tfciSlug": "bosnia-herzegovina",
+      "iso2": "BA",
+      "iso3": "BIH",
+      "boundaryFeatureId": "BA",
+      "centroidKey": "bosnia-herzegovina",
+      "mapRepresentation": "polygon"
+    },
+    "bulgaria": {
+      "tfciSlug": "bulgaria",
+      "iso2": "BG",
+      "iso3": "BGR",
+      "boundaryFeatureId": "BG",
+      "centroidKey": "bulgaria",
+      "mapRepresentation": "polygon"
+    },
+    "cameroon": {
+      "tfciSlug": "cameroon",
+      "iso2": "CM",
+      "iso3": "CMR",
+      "boundaryFeatureId": "CM",
+      "centroidKey": "cameroon",
+      "mapRepresentation": "polygon"
+    },
+    "cabo-verde": {
+      "tfciSlug": "cabo-verde",
+      "iso2": "CV",
+      "iso3": "CPV",
+      "boundaryFeatureId": null,
+      "centroidKey": "cabo-verde",
+      "mapRepresentation": "point-marker"
+    },
+    "cayman-islands": {
+      "tfciSlug": "cayman-islands",
+      "iso2": "KY",
+      "iso3": "CYM",
+      "boundaryFeatureId": null,
+      "centroidKey": "cayman-islands",
+      "mapRepresentation": "point-marker"
+    },
+    "cook-islands": {
+      "tfciSlug": "cook-islands",
+      "iso2": "CK",
+      "iso3": "COK",
+      "boundaryFeatureId": null,
+      "centroidKey": "cook-islands",
+      "mapRepresentation": "point-marker"
+    },
+    "curacao": {
+      "tfciSlug": "curacao",
+      "iso2": "CW",
+      "iso3": "CUW",
+      "boundaryFeatureId": null,
+      "centroidKey": "curacao",
+      "mapRepresentation": "point-marker"
+    },
+    "cyprus": {
+      "tfciSlug": "cyprus",
+      "iso2": "CY",
+      "iso3": "CYP",
+      "boundaryFeatureId": "CY",
+      "centroidKey": "cyprus",
+      "mapRepresentation": "polygon"
+    },
+    "eswatini": {
+      "tfciSlug": "eswatini",
+      "iso2": "SZ",
+      "iso3": "SWZ",
+      "boundaryFeatureId": "SZ",
+      "centroidKey": "eswatini",
+      "mapRepresentation": "polygon"
+    },
+    "gabon": {
+      "tfciSlug": "gabon",
+      "iso2": "GA",
+      "iso3": "GAB",
+      "boundaryFeatureId": "GA",
+      "centroidKey": "gabon",
+      "mapRepresentation": "polygon"
+    },
+    "guernsey": {
+      "tfciSlug": "guernsey",
+      "iso2": "GG",
+      "iso3": "GGY",
+      "boundaryFeatureId": null,
+      "centroidKey": "guernsey",
+      "mapRepresentation": "point-marker"
+    },
+    "honduras": {
+      "tfciSlug": "honduras",
+      "iso2": "HN",
+      "iso3": "HND",
+      "boundaryFeatureId": "HN",
+      "centroidKey": "honduras",
+      "mapRepresentation": "polygon"
+    },
+    "isle-of-man": {
+      "tfciSlug": "isle-of-man",
+      "iso2": "IM",
+      "iso3": "IMN",
+      "boundaryFeatureId": null,
+      "centroidKey": "isle-of-man",
+      "mapRepresentation": "point-marker"
+    },
+    "jersey": {
+      "tfciSlug": "jersey",
+      "iso2": "JE",
+      "iso3": "JEY",
+      "boundaryFeatureId": null,
+      "centroidKey": "jersey",
+      "mapRepresentation": "point-marker"
+    },
+    "jordan": {
+      "tfciSlug": "jordan",
+      "iso2": "JO",
+      "iso3": "JOR",
+      "boundaryFeatureId": "JO",
+      "centroidKey": "jordan",
+      "mapRepresentation": "polygon"
+    },
+    "latvia": {
+      "tfciSlug": "latvia",
+      "iso2": "LV",
+      "iso3": "LVA",
+      "boundaryFeatureId": "LV",
+      "centroidKey": "latvia",
+      "mapRepresentation": "polygon"
+    },
+    "lebanon": {
+      "tfciSlug": "lebanon",
+      "iso2": "LB",
+      "iso3": "LBN",
+      "boundaryFeatureId": "LB",
+      "centroidKey": "lebanon",
+      "mapRepresentation": "polygon"
+    },
+    "liechtenstein": {
+      "tfciSlug": "liechtenstein",
+      "iso2": "LI",
+      "iso3": "LIE",
+      "boundaryFeatureId": null,
+      "centroidKey": "liechtenstein",
+      "mapRepresentation": "point-marker"
+    },
+    "lithuania": {
+      "tfciSlug": "lithuania",
+      "iso2": "LT",
+      "iso3": "LTU",
+      "boundaryFeatureId": "LT",
+      "centroidKey": "lithuania",
+      "mapRepresentation": "polygon"
+    },
+    "luxembourg": {
+      "tfciSlug": "luxembourg",
+      "iso2": "LU",
+      "iso3": "LUX",
+      "boundaryFeatureId": "LU",
+      "centroidKey": "luxembourg",
+      "mapRepresentation": "polygon"
+    },
+    "maldives": {
+      "tfciSlug": "maldives",
+      "iso2": "MV",
+      "iso3": "MDV",
+      "boundaryFeatureId": null,
+      "centroidKey": "maldives",
+      "mapRepresentation": "point-marker"
+    },
+    "malta": {
+      "tfciSlug": "malta",
+      "iso2": "MT",
+      "iso3": "MLT",
+      "boundaryFeatureId": null,
+      "centroidKey": "malta",
+      "mapRepresentation": "point-marker"
+    },
+    "moldova": {
+      "tfciSlug": "moldova",
+      "iso2": "MD",
+      "iso3": "MDA",
+      "boundaryFeatureId": "MD",
+      "centroidKey": "moldova",
+      "mapRepresentation": "polygon"
+    },
+    "montenegro": {
+      "tfciSlug": "montenegro",
+      "iso2": "ME",
+      "iso3": "MNE",
+      "boundaryFeatureId": "ME",
+      "centroidKey": "montenegro",
+      "mapRepresentation": "polygon"
+    },
+    "nicaragua": {
+      "tfciSlug": "nicaragua",
+      "iso2": "NI",
+      "iso3": "NIC",
+      "boundaryFeatureId": "NI",
+      "centroidKey": "nicaragua",
+      "mapRepresentation": "polygon"
+    },
+    "north-macedonia": {
+      "tfciSlug": "north-macedonia",
+      "iso2": "MK",
+      "iso3": "MKD",
+      "boundaryFeatureId": "MK",
+      "centroidKey": "north-macedonia",
+      "mapRepresentation": "polygon"
+    },
+    "papua-new-guinea": {
+      "tfciSlug": "papua-new-guinea",
+      "iso2": "PG",
+      "iso3": "PNG",
+      "boundaryFeatureId": "PG",
+      "centroidKey": "papua-new-guinea",
+      "mapRepresentation": "polygon"
+    },
+    "san-marino": {
+      "tfciSlug": "san-marino",
+      "iso2": "SM",
+      "iso3": "SMR",
+      "boundaryFeatureId": null,
+      "centroidKey": "san-marino",
+      "mapRepresentation": "point-marker"
+    },
+    "seychelles": {
+      "tfciSlug": "seychelles",
+      "iso2": "SC",
+      "iso3": "SYC",
+      "boundaryFeatureId": null,
+      "centroidKey": "seychelles",
+      "mapRepresentation": "point-marker"
+    },
+    "saint-lucia": {
+      "tfciSlug": "saint-lucia",
+      "iso2": "LC",
+      "iso3": "LCA",
+      "boundaryFeatureId": null,
+      "centroidKey": "saint-lucia",
+      "mapRepresentation": "point-marker"
+    },
+    "suriname": {
+      "tfciSlug": "suriname",
+      "iso2": "SR",
+      "iso3": "SUR",
+      "boundaryFeatureId": "SR",
+      "centroidKey": "suriname",
+      "mapRepresentation": "polygon"
+    },
+    "togo": {
+      "tfciSlug": "togo",
+      "iso2": "TG",
+      "iso3": "TGO",
+      "boundaryFeatureId": "TG",
+      "centroidKey": "togo",
+      "mapRepresentation": "polygon"
+    },
+    "turks-and-caicos": {
+      "tfciSlug": "turks-and-caicos",
+      "iso2": "TC",
+      "iso3": "TCA",
+      "boundaryFeatureId": null,
+      "centroidKey": "turks-and-caicos",
+      "mapRepresentation": "point-marker"
+    },
+    "uganda": {
+      "tfciSlug": "uganda",
+      "iso2": "UG",
+      "iso3": "UGA",
+      "boundaryFeatureId": "UG",
+      "centroidKey": "uganda",
+      "mapRepresentation": "polygon"
+    },
+    "taiwan": {
+      "tfciSlug": "taiwan",
+      "iso2": "TW",
+      "iso3": "TWN",
+      "boundaryFeatureId": null,
+      "centroidKey": "taiwan",
+      "mapRepresentation": "point-marker"
+    },
+    "hong-kong": {
+      "tfciSlug": "hong-kong",
+      "iso2": "HK",
+      "iso3": "HKG",
+      "boundaryFeatureId": null,
+      "centroidKey": "hong-kong",
+      "mapRepresentation": "point-marker"
+    },
+    "macau": {
+      "tfciSlug": "macau",
+      "iso2": "MO",
+      "iso3": "MAC",
+      "boundaryFeatureId": null,
+      "centroidKey": "macau",
+      "mapRepresentation": "point-marker"
+    },
+    "cuba": {
+      "tfciSlug": "cuba",
+      "iso2": "CU",
+      "iso3": "CUB",
+      "boundaryFeatureId": "CU",
+      "centroidKey": "cuba",
+      "mapRepresentation": "polygon"
+    },
+    "north-korea": {
+      "tfciSlug": "north-korea",
+      "iso2": "KP",
+      "iso3": "PRK",
+      "boundaryFeatureId": "KP",
+      "centroidKey": "north-korea",
+      "mapRepresentation": "polygon"
+    },
+    "venezuela": {
+      "tfciSlug": "venezuela",
+      "iso2": "VE",
+      "iso3": "VEN",
+      "boundaryFeatureId": "VE",
+      "centroidKey": "venezuela",
+      "mapRepresentation": "polygon"
+    },
+    "belarus": {
+      "tfciSlug": "belarus",
+      "iso2": "BY",
+      "iso3": "BLR",
+      "boundaryFeatureId": "BY",
+      "centroidKey": "belarus",
+      "mapRepresentation": "polygon"
+    },
+    "syria": {
+      "tfciSlug": "syria",
+      "iso2": "SY",
+      "iso3": "SYR",
+      "boundaryFeatureId": "SY",
+      "centroidKey": "syria",
+      "mapRepresentation": "polygon"
+    },
+    "libya": {
+      "tfciSlug": "libya",
+      "iso2": "LY",
+      "iso3": "LBY",
+      "boundaryFeatureId": "LY",
+      "centroidKey": "libya",
+      "mapRepresentation": "polygon"
+    },
+    "myanmar": {
+      "tfciSlug": "myanmar",
+      "iso2": "MM",
+      "iso3": "MMR",
+      "boundaryFeatureId": "MM",
+      "centroidKey": "myanmar",
+      "mapRepresentation": "polygon"
+    },
+    "afghanistan": {
+      "tfciSlug": "afghanistan",
+      "iso2": "AF",
+      "iso3": "AFG",
+      "boundaryFeatureId": "AF",
+      "centroidKey": "afghanistan",
+      "mapRepresentation": "polygon"
+    },
+    "yemen": {
+      "tfciSlug": "yemen",
+      "iso2": "YE",
+      "iso3": "YEM",
+      "boundaryFeatureId": "YE",
+      "centroidKey": "yemen",
+      "mapRepresentation": "polygon"
+    },
+    "sudan": {
+      "tfciSlug": "sudan",
+      "iso2": "SD",
+      "iso3": "SDN",
+      "boundaryFeatureId": "SD",
+      "centroidKey": "sudan",
+      "mapRepresentation": "polygon"
+    },
+    "south-sudan": {
+      "tfciSlug": "south-sudan",
+      "iso2": "SS",
+      "iso3": "SSD",
+      "boundaryFeatureId": "SS",
+      "centroidKey": "south-sudan",
+      "mapRepresentation": "polygon"
+    },
+    "nepal": {
+      "tfciSlug": "nepal",
+      "iso2": "NP",
+      "iso3": "NPL",
+      "boundaryFeatureId": "NP",
+      "centroidKey": "nepal",
+      "mapRepresentation": "polygon"
+    },
+    "bhutan": {
+      "tfciSlug": "bhutan",
+      "iso2": "BT",
+      "iso3": "BTN",
+      "boundaryFeatureId": "BT",
+      "centroidKey": "bhutan",
+      "mapRepresentation": "polygon"
+    },
+    "laos": {
+      "tfciSlug": "laos",
+      "iso2": "LA",
+      "iso3": "LAO",
+      "boundaryFeatureId": "LA",
+      "centroidKey": "laos",
+      "mapRepresentation": "polygon"
+    },
+    "armenia": {
+      "tfciSlug": "armenia",
+      "iso2": "AM",
+      "iso3": "ARM",
+      "boundaryFeatureId": "AM",
+      "centroidKey": "armenia",
+      "mapRepresentation": "polygon"
+    },
+    "kyrgyzstan": {
+      "tfciSlug": "kyrgyzstan",
+      "iso2": "KG",
+      "iso3": "KGZ",
+      "boundaryFeatureId": "KG",
+      "centroidKey": "kyrgyzstan",
+      "mapRepresentation": "polygon"
+    },
+    "tajikistan": {
+      "tfciSlug": "tajikistan",
+      "iso2": "TJ",
+      "iso3": "TJK",
+      "boundaryFeatureId": "TJ",
+      "centroidKey": "tajikistan",
+      "mapRepresentation": "polygon"
+    },
+    "turkmenistan": {
+      "tfciSlug": "turkmenistan",
+      "iso2": "TM",
+      "iso3": "TKM",
+      "boundaryFeatureId": "TM",
+      "centroidKey": "turkmenistan",
+      "mapRepresentation": "polygon"
+    },
+    "mali": {
+      "tfciSlug": "mali",
+      "iso2": "ML",
+      "iso3": "MLI",
+      "boundaryFeatureId": "ML",
+      "centroidKey": "mali",
+      "mapRepresentation": "polygon"
+    },
+    "niger": {
+      "tfciSlug": "niger",
+      "iso2": "NE",
+      "iso3": "NER",
+      "boundaryFeatureId": "NE",
+      "centroidKey": "niger",
+      "mapRepresentation": "polygon"
+    },
+    "chad": {
+      "tfciSlug": "chad",
+      "iso2": "TD",
+      "iso3": "TCD",
+      "boundaryFeatureId": "TD",
+      "centroidKey": "chad",
+      "mapRepresentation": "polygon"
+    },
+    "burkina-faso": {
+      "tfciSlug": "burkina-faso",
+      "iso2": "BF",
+      "iso3": "BFA",
+      "boundaryFeatureId": "BF",
+      "centroidKey": "burkina-faso",
+      "mapRepresentation": "polygon"
+    },
+    "somalia": {
+      "tfciSlug": "somalia",
+      "iso2": "SO",
+      "iso3": "SOM",
+      "boundaryFeatureId": "SO",
+      "centroidKey": "somalia",
+      "mapRepresentation": "polygon"
+    },
+    "eritrea": {
+      "tfciSlug": "eritrea",
+      "iso2": "ER",
+      "iso3": "ERI",
+      "boundaryFeatureId": "ER",
+      "centroidKey": "eritrea",
+      "mapRepresentation": "polygon"
+    },
+    "haiti": {
+      "tfciSlug": "haiti",
+      "iso2": "HT",
+      "iso3": "HTI",
+      "boundaryFeatureId": "HT",
+      "centroidKey": "haiti",
+      "mapRepresentation": "polygon"
+    },
+    "tunisia": {
+      "tfciSlug": "tunisia",
+      "iso2": "TN",
+      "iso3": "TUN",
+      "boundaryFeatureId": "TN",
+      "centroidKey": "tunisia",
+      "mapRepresentation": "polygon"
+    },
+    "madagascar": {
+      "tfciSlug": "madagascar",
+      "iso2": "MG",
+      "iso3": "MDG",
+      "boundaryFeatureId": "MG",
+      "centroidKey": "madagascar",
+      "mapRepresentation": "polygon"
+    },
+    "malawi": {
+      "tfciSlug": "malawi",
+      "iso2": "MW",
+      "iso3": "MWI",
+      "boundaryFeatureId": "MW",
+      "centroidKey": "malawi",
+      "mapRepresentation": "polygon"
+    },
+    "mauritania": {
+      "tfciSlug": "mauritania",
+      "iso2": "MR",
+      "iso3": "MRT",
+      "boundaryFeatureId": "MR",
+      "centroidKey": "mauritania",
+      "mapRepresentation": "polygon"
+    },
+    "liberia": {
+      "tfciSlug": "liberia",
+      "iso2": "LR",
+      "iso3": "LBR",
+      "boundaryFeatureId": "LR",
+      "centroidKey": "liberia",
+      "mapRepresentation": "polygon"
+    },
+    "sierra-leone": {
+      "tfciSlug": "sierra-leone",
+      "iso2": "SL",
+      "iso3": "SLE",
+      "boundaryFeatureId": "SL",
+      "centroidKey": "sierra-leone",
+      "mapRepresentation": "polygon"
+    },
+    "djibouti": {
+      "tfciSlug": "djibouti",
+      "iso2": "DJ",
+      "iso3": "DJI",
+      "boundaryFeatureId": "DJ",
+      "centroidKey": "djibouti",
+      "mapRepresentation": "polygon"
+    },
+    "equatorial-guinea": {
+      "tfciSlug": "equatorial-guinea",
+      "iso2": "GQ",
+      "iso3": "GNQ",
+      "boundaryFeatureId": "GQ",
+      "centroidKey": "equatorial-guinea",
+      "mapRepresentation": "polygon"
+    },
+    "brunei": {
+      "tfciSlug": "brunei",
+      "iso2": "BN",
+      "iso3": "BRN",
+      "boundaryFeatureId": "BN",
+      "centroidKey": "brunei",
+      "mapRepresentation": "polygon"
+    },
+    "timor-leste": {
+      "tfciSlug": "timor-leste",
+      "iso2": "TL",
+      "iso3": "TLS",
+      "boundaryFeatureId": "TL",
+      "centroidKey": "timor-leste",
+      "mapRepresentation": "polygon"
+    },
+    "palestine": {
+      "tfciSlug": "palestine",
+      "iso2": "PS",
+      "iso3": "PSE",
+      "boundaryFeatureId": "PS",
+      "centroidKey": "palestine",
+      "mapRepresentation": "polygon"
+    },
+    "burundi": {
+      "tfciSlug": "burundi",
+      "iso2": "BI",
+      "iso3": "BDI",
+      "boundaryFeatureId": "BI",
+      "centroidKey": "burundi",
+      "mapRepresentation": "polygon"
+    },
+    "central-african-republic": {
+      "tfciSlug": "central-african-republic",
+      "iso2": "CF",
+      "iso3": "CAF",
+      "boundaryFeatureId": "CF",
+      "centroidKey": "central-african-republic",
+      "mapRepresentation": "polygon"
+    },
+    "gambia": {
+      "tfciSlug": "gambia",
+      "iso2": "GM",
+      "iso3": "GMB",
+      "boundaryFeatureId": "GM",
+      "centroidKey": "gambia",
+      "mapRepresentation": "polygon"
+    },
+    "guinea-bissau": {
+      "tfciSlug": "guinea-bissau",
+      "iso2": "GW",
+      "iso3": "GNB",
+      "boundaryFeatureId": "GW",
+      "centroidKey": "guinea-bissau",
+      "mapRepresentation": "polygon"
+    },
+    "lesotho": {
+      "tfciSlug": "lesotho",
+      "iso2": "LS",
+      "iso3": "LSO",
+      "boundaryFeatureId": "LS",
+      "centroidKey": "lesotho",
+      "mapRepresentation": "polygon"
+    },
+    "comoros": {
+      "tfciSlug": "comoros",
+      "iso2": "KM",
+      "iso3": "COM",
+      "boundaryFeatureId": null,
+      "centroidKey": "comoros",
+      "mapRepresentation": "point-marker"
+    },
+    "sao-tome-principe": {
+      "tfciSlug": "sao-tome-principe",
+      "iso2": "ST",
+      "iso3": "STP",
+      "boundaryFeatureId": null,
+      "centroidKey": "sao-tome-principe",
+      "mapRepresentation": "point-marker"
+    },
+    "kiribati": {
+      "tfciSlug": "kiribati",
+      "iso2": "KI",
+      "iso3": "KIR",
+      "boundaryFeatureId": null,
+      "centroidKey": "kiribati",
+      "mapRepresentation": "point-marker"
+    },
+    "marshall-islands": {
+      "tfciSlug": "marshall-islands",
+      "iso2": "MH",
+      "iso3": "MHL",
+      "boundaryFeatureId": null,
+      "centroidKey": "marshall-islands",
+      "mapRepresentation": "point-marker"
+    },
+    "micronesia": {
+      "tfciSlug": "micronesia",
+      "iso2": "FM",
+      "iso3": "FSM",
+      "boundaryFeatureId": null,
+      "centroidKey": "micronesia",
+      "mapRepresentation": "point-marker"
+    },
+    "nauru": {
+      "tfciSlug": "nauru",
+      "iso2": "NR",
+      "iso3": "NRU",
+      "boundaryFeatureId": null,
+      "centroidKey": "nauru",
+      "mapRepresentation": "point-marker"
+    },
+    "palau": {
+      "tfciSlug": "palau",
+      "iso2": "PW",
+      "iso3": "PLW",
+      "boundaryFeatureId": null,
+      "centroidKey": "palau",
+      "mapRepresentation": "point-marker"
+    },
+    "samoa": {
+      "tfciSlug": "samoa",
+      "iso2": "WS",
+      "iso3": "WSM",
+      "boundaryFeatureId": null,
+      "centroidKey": "samoa",
+      "mapRepresentation": "point-marker"
+    },
+    "solomon-islands": {
+      "tfciSlug": "solomon-islands",
+      "iso2": "SB",
+      "iso3": "SLB",
+      "boundaryFeatureId": "SB",
+      "centroidKey": "solomon-islands",
+      "mapRepresentation": "polygon"
+    },
+    "tonga": {
+      "tfciSlug": "tonga",
+      "iso2": "TO",
+      "iso3": "TON",
+      "boundaryFeatureId": null,
+      "centroidKey": "tonga",
+      "mapRepresentation": "point-marker"
+    },
+    "tuvalu": {
+      "tfciSlug": "tuvalu",
+      "iso2": "TV",
+      "iso3": "TUV",
+      "boundaryFeatureId": null,
+      "centroidKey": "tuvalu",
+      "mapRepresentation": "point-marker"
+    },
+    "vanuatu": {
+      "tfciSlug": "vanuatu",
+      "iso2": "VU",
+      "iso3": "VUT",
+      "boundaryFeatureId": "VU",
+      "centroidKey": "vanuatu",
+      "mapRepresentation": "polygon"
+    },
+    "antigua-barbuda": {
+      "tfciSlug": "antigua-barbuda",
+      "iso2": "AG",
+      "iso3": "ATG",
+      "boundaryFeatureId": null,
+      "centroidKey": "antigua-barbuda",
+      "mapRepresentation": "point-marker"
+    },
+    "dominica": {
+      "tfciSlug": "dominica",
+      "iso2": "DM",
+      "iso3": "DMA",
+      "boundaryFeatureId": null,
+      "centroidKey": "dominica",
+      "mapRepresentation": "point-marker"
+    },
+    "grenada": {
+      "tfciSlug": "grenada",
+      "iso2": "GD",
+      "iso3": "GRD",
+      "boundaryFeatureId": null,
+      "centroidKey": "grenada",
+      "mapRepresentation": "point-marker"
+    },
+    "saint-kitts-nevis": {
+      "tfciSlug": "saint-kitts-nevis",
+      "iso2": "KN",
+      "iso3": "KNA",
+      "boundaryFeatureId": null,
+      "centroidKey": "saint-kitts-nevis",
+      "mapRepresentation": "point-marker"
+    },
+    "saint-vincent-grenadines": {
+      "tfciSlug": "saint-vincent-grenadines",
+      "iso2": "VC",
+      "iso3": "VCT",
+      "boundaryFeatureId": null,
+      "centroidKey": "saint-vincent-grenadines",
+      "mapRepresentation": "point-marker"
+    },
+    "monaco": {
+      "tfciSlug": "monaco",
+      "iso2": "MC",
+      "iso3": "MCO",
+      "boundaryFeatureId": null,
+      "centroidKey": "monaco",
+      "mapRepresentation": "point-marker"
+    },
+    "holy-see": {
+      "tfciSlug": "holy-see",
+      "iso2": "VA",
+      "iso3": "VAT",
+      "boundaryFeatureId": null,
+      "centroidKey": "holy-see",
+      "mapRepresentation": "point-marker"
+    }
+  }
+}

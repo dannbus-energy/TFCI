@@ -1,0 +1,21 @@
+sector_slug,sector_id,name,sector_group,description,capital_pool_usd_bn,display_order
+grid-modernization,T01,Grid Modernization,Energy Networks & Molecules,"Evaluates the capacity to upgrade transmission, integrate distributed renewables, and eliminate legacy fossil bottlenecks.",2500,4
+water-security,T02,Water Security,Resources & Physical Baseload,"Measures municipal and industrial water availability, aquifer sustainability, and desalination capacity for new energy cooling and agriculture.",1200,8
+critical-minerals,T03,Critical Minerals,Resources & Physical Baseload,"Assesses domestic geological endowment, mid-stream refining dominance, and supply chain security for battery and grid materials.",3800,7
+ai-compute,T04,AI Compute,Deep Tech & Advanced Industry,"Evaluates physical bandwidth for hyperscale data centers, cooling water access, and regulatory certainty for sovereign AI deployment.",2100,10
+semiconductors,T05,Semiconductors,Deep Tech & Advanced Industry,"Measures advanced node manufacturing capacity, specialized labor availability, and geopolitical supply chain resilience.",1900,11
+net-zero-mobility,T06,Net-Zero Mobility,Mobility & Built Environment,"Assesses binding statutory mandates for BEV phase-out, charging infrastructure execution, and legacy automotive transition friction.",4200,15
+advanced-manufacturing,T07,Advanced Manufacturing,Deep Tech & Advanced Industry,"Evaluates nearshoring velocity, robotics integration, and green industrial CapEx absorption capacity.",3100,12
+aviation-maritime,T08,Aviation & Maritime,Mobility & Built Environment,"Measures adoption of sustainable aviation fuels (SAF), green shipping corridors, and port electrification execution.",1500,16
+smart-cities,T09,Smart Cities,Human & Digital Infrastructure,"Assesses digital public infrastructure, municipal energy microgrids, and urban climate resilience planning.",2800,18
+labor-transition,T10,Labor Transition,Human & Digital Infrastructure,Evaluates workforce retraining velocity for new energy sectors and social stability against industrial displacement.,1100,19
+carbon-markets,T11,Carbon Markets,Energy Networks & Molecules,"Measures the binding legal authority, pricing depth, and enforcement probability of domestic carbon pricing mechanisms.",900,6
+space-economy,T12,Space Economy,Deep Tech & Advanced Industry,"Assesses sovereign launch capabilities, orbital debris regulation, and satellite broadband infrastructure execution.",600,14
+cyber-physical-security,T13,Cyber-Physical Security,Deep Tech & Advanced Industry,"Evaluates grid cybersecurity, critical infrastructure protection, and state-sponsored threat mitigation.",850,13
+digital-public-infrastructure,T14,Digital Public Infrastructure,Human & Digital Infrastructure,"Measures digital ID adoption, open banking APIs, and frictionless digital governance execution.",750,20
+food-systems-agriculture,T15,Food Systems & Agriculture,Resources & Physical Baseload,"Assesses climate-resilient crop yields, precision agriculture adoption, and agricultural water stress mitigation.",1400,9
+utility-scale-renewables,T16,Utility-Scale Renewables,Clean Power Supply,"Evaluates the capacity to deploy solar, wind and geothermal generation at scale: permitting velocity, land access, offtake depth and curtailment management.",6900,1
+nuclear-clean-firm,T17,Nuclear & Clean Firm,Clean Power Supply,"Assesses licensing, construction record and supply-chain capability to deliver firm low-carbon power: nuclear new-build and life extension, SMRs, and enhanced geothermal.",750,2
+energy-storage-flexibility,T18,Energy Storage & Flexibility,Clean Power Supply,"Measures deployment of battery, long-duration and pumped storage plus demand flexibility: revenue mechanisms, duration mix and integration with variable renewables.",1500,3
+hydrogen-powerfuels,T19,Hydrogen & Powerfuels,Energy Networks & Molecules,"Assesses policy, offtake and infrastructure readiness for low-carbon hydrogen, ammonia and e-fuels serving industry, shipping and aviation feedstocks.",800,5
+buildings-heat,T20,Buildings & Heat,Mobility & Built Environment,"Evaluates retrofit velocity, heat-pump and district-energy deployment, and efficiency-mandate enforcement across the building stock.",4000,17

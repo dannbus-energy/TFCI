@@ -1,0 +1,836 @@
+{
+  "schemaVersion": "0.1",
+  "generatedAt": "2026-09-15",
+  "source": "lipis/flag-icons",
+  "license": "MIT",
+  "files": [
+    {
+      "iso2": "ad",
+      "file": "ad.svg"
+    },
+    {
+      "iso2": "ae",
+      "file": "ae.svg"
+    },
+    {
+      "iso2": "af",
+      "file": "af.svg"
+    },
+    {
+      "iso2": "ag",
+      "file": "ag.svg"
+    },
+    {
+      "iso2": "al",
+      "file": "al.svg"
+    },
+    {
+      "iso2": "am",
+      "file": "am.svg"
+    },
+    {
+      "iso2": "ao",
+      "file": "ao.svg"
+    },
+    {
+      "iso2": "ar",
+      "file": "ar.svg"
+    },
+    {
+      "iso2": "at",
+      "file": "at.svg"
+    },
+    {
+      "iso2": "au",
+      "file": "au.svg"
+    },
+    {
+      "iso2": "aw",
+      "file": "aw.svg"
+    },
+    {
+      "iso2": "az",
+      "file": "az.svg"
+    },
+    {
+      "iso2": "ba",
+      "file": "ba.svg"
+    },
+    {
+      "iso2": "bb",
+      "file": "bb.svg"
+    },
+    {
+      "iso2": "bd",
+      "file": "bd.svg"
+    },
+    {
+      "iso2": "be",
+      "file": "be.svg"
+    },
+    {
+      "iso2": "bf",
+      "file": "bf.svg"
+    },
+    {
+      "iso2": "bg",
+      "file": "bg.svg"
+    },
+    {
+      "iso2": "bh",
+      "file": "bh.svg"
+    },
+    {
+      "iso2": "bi",
+      "file": "bi.svg"
+    },
+    {
+      "iso2": "bj",
+      "file": "bj.svg"
+    },
+    {
+      "iso2": "bm",
+      "file": "bm.svg"
+    },
+    {
+      "iso2": "bn",
+      "file": "bn.svg"
+    },
+    {
+      "iso2": "bo",
+      "file": "bo.svg"
+    },
+    {
+      "iso2": "br",
+      "file": "br.svg"
+    },
+    {
+      "iso2": "bs",
+      "file": "bs.svg"
+    },
+    {
+      "iso2": "bt",
+      "file": "bt.svg"
+    },
+    {
+      "iso2": "bw",
+      "file": "bw.svg"
+    },
+    {
+      "iso2": "by",
+      "file": "by.svg"
+    },
+    {
+      "iso2": "bz",
+      "file": "bz.svg"
+    },
+    {
+      "iso2": "ca",
+      "file": "ca.svg"
+    },
+    {
+      "iso2": "cd",
+      "file": "cd.svg"
+    },
+    {
+      "iso2": "cf",
+      "file": "cf.svg"
+    },
+    {
+      "iso2": "cg",
+      "file": "cg.svg"
+    },
+    {
+      "iso2": "ch",
+      "file": "ch.svg"
+    },
+    {
+      "iso2": "ci",
+      "file": "ci.svg"
+    },
+    {
+      "iso2": "ck",
+      "file": "ck.svg"
+    },
+    {
+      "iso2": "cl",
+      "file": "cl.svg"
+    },
+    {
+      "iso2": "cm",
+      "file": "cm.svg"
+    },
+    {
+      "iso2": "cn",
+      "file": "cn.svg"
+    },
+    {
+      "iso2": "co",
+      "file": "co.svg"
+    },
+    {
+      "iso2": "cr",
+      "file": "cr.svg"
+    },
+    {
+      "iso2": "cu",
+      "file": "cu.svg"
+    },
+    {
+      "iso2": "cv",
+      "file": "cv.svg"
+    },
+    {
+      "iso2": "cw",
+      "file": "cw.svg"
+    },
+    {
+      "iso2": "cy",
+      "file": "cy.svg"
+    },
+    {
+      "iso2": "cz",
+      "file": "cz.svg"
+    },
+    {
+      "iso2": "de",
+      "file": "de.svg"
+    },
+    {
+      "iso2": "dj",
+      "file": "dj.svg"
+    },
+    {
+      "iso2": "dk",
+      "file": "dk.svg"
+    },
+    {
+      "iso2": "dm",
+      "file": "dm.svg"
+    },
+    {
+      "iso2": "do",
+      "file": "do.svg"
+    },
+    {
+      "iso2": "dz",
+      "file": "dz.svg"
+    },
+    {
+      "iso2": "ec",
+      "file": "ec.svg"
+    },
+    {
+      "iso2": "ee",
+      "file": "ee.svg"
+    },
+    {
+      "iso2": "eg",
+      "file": "eg.svg"
+    },
+    {
+      "iso2": "er",
+      "file": "er.svg"
+    },
+    {
+      "iso2": "es",
+      "file": "es.svg"
+    },
+    {
+      "iso2": "et",
+      "file": "et.svg"
+    },
+    {
+      "iso2": "fi",
+      "file": "fi.svg"
+    },
+    {
+      "iso2": "fj",
+      "file": "fj.svg"
+    },
+    {
+      "iso2": "fm",
+      "file": "fm.svg"
+    },
+    {
+      "iso2": "fr",
+      "file": "fr.svg"
+    },
+    {
+      "iso2": "ga",
+      "file": "ga.svg"
+    },
+    {
+      "iso2": "gb",
+      "file": "gb.svg"
+    },
+    {
+      "iso2": "gd",
+      "file": "gd.svg"
+    },
+    {
+      "iso2": "ge",
+      "file": "ge.svg"
+    },
+    {
+      "iso2": "gg",
+      "file": "gg.svg"
+    },
+    {
+      "iso2": "gh",
+      "file": "gh.svg"
+    },
+    {
+      "iso2": "gm",
+      "file": "gm.svg"
+    },
+    {
+      "iso2": "gn",
+      "file": "gn.svg"
+    },
+    {
+      "iso2": "gq",
+      "file": "gq.svg"
+    },
+    {
+      "iso2": "gr",
+      "file": "gr.svg"
+    },
+    {
+      "iso2": "gt",
+      "file": "gt.svg"
+    },
+    {
+      "iso2": "gw",
+      "file": "gw.svg"
+    },
+    {
+      "iso2": "gy",
+      "file": "gy.svg"
+    },
+    {
+      "iso2": "hk",
+      "file": "hk.svg"
+    },
+    {
+      "iso2": "hn",
+      "file": "hn.svg"
+    },
+    {
+      "iso2": "hr",
+      "file": "hr.svg"
+    },
+    {
+      "iso2": "ht",
+      "file": "ht.svg"
+    },
+    {
+      "iso2": "hu",
+      "file": "hu.svg"
+    },
+    {
+      "iso2": "id",
+      "file": "id.svg"
+    },
+    {
+      "iso2": "ie",
+      "file": "ie.svg"
+    },
+    {
+      "iso2": "il",
+      "file": "il.svg"
+    },
+    {
+      "iso2": "im",
+      "file": "im.svg"
+    },
+    {
+      "iso2": "in",
+      "file": "in.svg"
+    },
+    {
+      "iso2": "iq",
+      "file": "iq.svg"
+    },
+    {
+      "iso2": "ir",
+      "file": "ir.svg"
+    },
+    {
+      "iso2": "is",
+      "file": "is.svg"
+    },
+    {
+      "iso2": "it",
+      "file": "it.svg"
+    },
+    {
+      "iso2": "je",
+      "file": "je.svg"
+    },
+    {
+      "iso2": "jm",
+      "file": "jm.svg"
+    },
+    {
+      "iso2": "jo",
+      "file": "jo.svg"
+    },
+    {
+      "iso2": "jp",
+      "file": "jp.svg"
+    },
+    {
+      "iso2": "ke",
+      "file": "ke.svg"
+    },
+    {
+      "iso2": "kg",
+      "file": "kg.svg"
+    },
+    {
+      "iso2": "kh",
+      "file": "kh.svg"
+    },
+    {
+      "iso2": "ki",
+      "file": "ki.svg"
+    },
+    {
+      "iso2": "km",
+      "file": "km.svg"
+    },
+    {
+      "iso2": "kn",
+      "file": "kn.svg"
+    },
+    {
+      "iso2": "kp",
+      "file": "kp.svg"
+    },
+    {
+      "iso2": "kr",
+      "file": "kr.svg"
+    },
+    {
+      "iso2": "kw",
+      "file": "kw.svg"
+    },
+    {
+      "iso2": "ky",
+      "file": "ky.svg"
+    },
+    {
+      "iso2": "kz",
+      "file": "kz.svg"
+    },
+    {
+      "iso2": "la",
+      "file": "la.svg"
+    },
+    {
+      "iso2": "lb",
+      "file": "lb.svg"
+    },
+    {
+      "iso2": "lc",
+      "file": "lc.svg"
+    },
+    {
+      "iso2": "li",
+      "file": "li.svg"
+    },
+    {
+      "iso2": "lk",
+      "file": "lk.svg"
+    },
+    {
+      "iso2": "lr",
+      "file": "lr.svg"
+    },
+    {
+      "iso2": "ls",
+      "file": "ls.svg"
+    },
+    {
+      "iso2": "lt",
+      "file": "lt.svg"
+    },
+    {
+      "iso2": "lu",
+      "file": "lu.svg"
+    },
+    {
+      "iso2": "lv",
+      "file": "lv.svg"
+    },
+    {
+      "iso2": "ly",
+      "file": "ly.svg"
+    },
+    {
+      "iso2": "ma",
+      "file": "ma.svg"
+    },
+    {
+      "iso2": "mc",
+      "file": "mc.svg"
+    },
+    {
+      "iso2": "md",
+      "file": "md.svg"
+    },
+    {
+      "iso2": "me",
+      "file": "me.svg"
+    },
+    {
+      "iso2": "mg",
+      "file": "mg.svg"
+    },
+    {
+      "iso2": "mh",
+      "file": "mh.svg"
+    },
+    {
+      "iso2": "mk",
+      "file": "mk.svg"
+    },
+    {
+      "iso2": "ml",
+      "file": "ml.svg"
+    },
+    {
+      "iso2": "mm",
+      "file": "mm.svg"
+    },
+    {
+      "iso2": "mn",
+      "file": "mn.svg"
+    },
+    {
+      "iso2": "mo",
+      "file": "mo.svg"
+    },
+    {
+      "iso2": "mr",
+      "file": "mr.svg"
+    },
+    {
+      "iso2": "mt",
+      "file": "mt.svg"
+    },
+    {
+      "iso2": "mu",
+      "file": "mu.svg"
+    },
+    {
+      "iso2": "mv",
+      "file": "mv.svg"
+    },
+    {
+      "iso2": "mw",
+      "file": "mw.svg"
+    },
+    {
+      "iso2": "mx",
+      "file": "mx.svg"
+    },
+    {
+      "iso2": "my",
+      "file": "my.svg"
+    },
+    {
+      "iso2": "mz",
+      "file": "mz.svg"
+    },
+    {
+      "iso2": "na",
+      "file": "na.svg"
+    },
+    {
+      "iso2": "ne",
+      "file": "ne.svg"
+    },
+    {
+      "iso2": "ng",
+      "file": "ng.svg"
+    },
+    {
+      "iso2": "ni",
+      "file": "ni.svg"
+    },
+    {
+      "iso2": "nl",
+      "file": "nl.svg"
+    },
+    {
+      "iso2": "no",
+      "file": "no.svg"
+    },
+    {
+      "iso2": "np",
+      "file": "np.svg"
+    },
+    {
+      "iso2": "nr",
+      "file": "nr.svg"
+    },
+    {
+      "iso2": "nz",
+      "file": "nz.svg"
+    },
+    {
+      "iso2": "om",
+      "file": "om.svg"
+    },
+    {
+      "iso2": "pa",
+      "file": "pa.svg"
+    },
+    {
+      "iso2": "pe",
+      "file": "pe.svg"
+    },
+    {
+      "iso2": "pg",
+      "file": "pg.svg"
+    },
+    {
+      "iso2": "ph",
+      "file": "ph.svg"
+    },
+    {
+      "iso2": "pk",
+      "file": "pk.svg"
+    },
+    {
+      "iso2": "pl",
+      "file": "pl.svg"
+    },
+    {
+      "iso2": "ps",
+      "file": "ps.svg"
+    },
+    {
+      "iso2": "pt",
+      "file": "pt.svg"
+    },
+    {
+      "iso2": "pw",
+      "file": "pw.svg"
+    },
+    {
+      "iso2": "py",
+      "file": "py.svg"
+    },
+    {
+      "iso2": "qa",
+      "file": "qa.svg"
+    },
+    {
+      "iso2": "ro",
+      "file": "ro.svg"
+    },
+    {
+      "iso2": "rs",
+      "file": "rs.svg"
+    },
+    {
+      "iso2": "ru",
+      "file": "ru.svg"
+    },
+    {
+      "iso2": "rw",
+      "file": "rw.svg"
+    },
+    {
+      "iso2": "sa",
+      "file": "sa.svg"
+    },
+    {
+      "iso2": "sb",
+      "file": "sb.svg"
+    },
+    {
+      "iso2": "sc",
+      "file": "sc.svg"
+    },
+    {
+      "iso2": "sd",
+      "file": "sd.svg"
+    },
+    {
+      "iso2": "se",
+      "file": "se.svg"
+    },
+    {
+      "iso2": "sg",
+      "file": "sg.svg"
+    },
+    {
+      "iso2": "si",
+      "file": "si.svg"
+    },
+    {
+      "iso2": "sk",
+      "file": "sk.svg"
+    },
+    {
+      "iso2": "sl",
+      "file": "sl.svg"
+    },
+    {
+      "iso2": "sm",
+      "file": "sm.svg"
+    },
+    {
+      "iso2": "sn",
+      "file": "sn.svg"
+    },
+    {
+      "iso2": "so",
+      "file": "so.svg"
+    },
+    {
+      "iso2": "sr",
+      "file": "sr.svg"
+    },
+    {
+      "iso2": "ss",
+      "file": "ss.svg"
+    },
+    {
+      "iso2": "st",
+      "file": "st.svg"
+    },
+    {
+      "iso2": "sv",
+      "file": "sv.svg"
+    },
+    {
+      "iso2": "sy",
+      "file": "sy.svg"
+    },
+    {
+      "iso2": "sz",
+      "file": "sz.svg"
+    },
+    {
+      "iso2": "tc",
+      "file": "tc.svg"
+    },
+    {
+      "iso2": "td",
+      "file": "td.svg"
+    },
+    {
+      "iso2": "tg",
+      "file": "tg.svg"
+    },
+    {
+      "iso2": "th",
+      "file": "th.svg"
+    },
+    {
+      "iso2": "tj",
+      "file": "tj.svg"
+    },
+    {
+      "iso2": "tl",
+      "file": "tl.svg"
+    },
+    {
+      "iso2": "tm",
+      "file": "tm.svg"
+    },
+    {
+      "iso2": "tn",
+      "file": "tn.svg"
+    },
+    {
+      "iso2": "to",
+      "file": "to.svg"
+    },
+    {
+      "iso2": "tr",
+      "file": "tr.svg"
+    },
+    {
+      "iso2": "tt",
+      "file": "tt.svg"
+    },
+    {
+      "iso2": "tv",
+      "file": "tv.svg"
+    },
+    {
+      "iso2": "tw",
+      "file": "tw.svg"
+    },
+    {
+      "iso2": "tz",
+      "file": "tz.svg"
+    },
+    {
+      "iso2": "ua",
+      "file": "ua.svg"
+    },
+    {
+      "iso2": "ug",
+      "file": "ug.svg"
+    },
+    {
+      "iso2": "us",
+      "file": "us.svg"
+    },
+    {
+      "iso2": "uy",
+      "file": "uy.svg"
+    },
+    {
+      "iso2": "uz",
+      "file": "uz.svg"
+    },
+    {
+      "iso2": "va",
+      "file": "va.svg"
+    },
+    {
+      "iso2": "vc",
+      "file": "vc.svg"
+    },
+    {
+      "iso2": "ve",
+      "file": "ve.svg"
+    },
+    {
+      "iso2": "vn",
+      "file": "vn.svg"
+    },
+    {
+      "iso2": "vu",
+      "file": "vu.svg"
+    },
+    {
+      "iso2": "ws",
+      "file": "ws.svg"
+    },
+    {
+      "iso2": "ye",
+      "file": "ye.svg"
+    },
+    {
+      "iso2": "za",
+      "file": "za.svg"
+    },
+    {
+      "iso2": "zm",
+      "file": "zm.svg"
+    },
+    {
+      "iso2": "zw",
+      "file": "zw.svg"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+staging_id,project_id,jurisdiction_slug,sector_slug,event_type,event_date,date_precision,amount_local,currency_code,source_ids,confidence,blocking_reason
+STG-0009,PRJ-2026-0014,norway,ai-compute,announcement,2026-07-15,month,11.0,NOK,SRC-0016,medium,atNorth NOK 11bn: H.10 20260720 retry failed (EXC-0027)
+STG-0010,PRJ-2026-0015,brazil,utility-scale-renewables,construction_start,2022-07-01,month,,BRL,,medium,Mendubim 531 MWp: capital not sourced in two passes; needs project row + citable capital figure

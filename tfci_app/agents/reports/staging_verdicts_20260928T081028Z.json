@@ -1,0 +1,50 @@
+[
+  {
+    "candidate_id": "STG-0009",
+    "claim_match": true,
+    "claim_mismatch_overridden": false,
+    "source_reachable": false,
+    "source_title": "",
+    "independent_sources": [],
+    "primary_sources": [
+      {
+        "title": "atNorth expands to Norway with new mega site in Haugaland - atNorth",
+        "url": "https://www.atnorth.com/news/atnorth-expands-to-norway-with-new-mega-site-in-haugaland/",
+        "classification": "primary",
+        "quote": "This marks a major milestone for the company, establishing its footprint across all Nordic countries and further reinforcing its commitment to delivering sustainable, scalable infrastructure in prime locations across the region."
+      }
+    ],
+    "unfaithful_sources": [],
+    "corroboration_found": false,
+    "evidence_grade": "C",
+    "rationale": "The matched source is a press release from atNorth, which confirms their expansion into Norway with a new mega data center site in Haugaland. However, it does not provide specific details about the NOK 11 billion amount mentioned in the candidate event, which limits the evidence quality to a primary source only.",
+    "recommendation": "needs_more"
+  },
+  {
+    "candidate_id": "STG-0010",
+    "claim_match": true,
+    "claim_mismatch_overridden": false,
+    "source_reachable": false,
+    "source_title": "",
+    "independent_sources": [],
+    "primary_sources": [
+      {
+        "title": "Hydro Rein and partners sign PPA and start construction activities at the Mendubim solar project in Brazil",
+        "url": "https://www.hydro.com/en/global/media/news/2022/hydro-rein-and-partners-sign-ppa-and-start-construction-activities-at-the-mendubim-solar-project-in-brazil/",
+        "classification": "primary",
+        "quote": "Hydro Rein, Equinor and Scatec are starting construction activities for the Mendubim solar project in the state of Rio Grande do Norte in Brazil."
+      },
+      {
+        "title": "Scatec and partners sign PPA and start construction activities at the Mendubim solar project in Brazil",
+        "url": "https://kommunikasjon.ntb.no/pressemelding/17937336/scatec-and-partners-sign-ppa-and-start-construction-activities-at-the-mendubim-solar-project-in-brazil?publisherId=4954260",
+        "classification": "primary",
+        "quote": "Scatec ASA, Equinor ASA e Hydro Rein iniciam a constru\u00e7\u00e3o da usina solar Mendubim, de 531 MW de capacidade instalada."
+      }
+    ],
+    "unfaithful_sources": [],
+    "corroboration_found": false,
+    "evidence_grade": "C",
+    "rationale": "The sources confirm the involvement of Hydro Rein, Equinor, and Scatec in the Mendubim solar project, which matches the candidate's event. However, all sources are primary, being press releases from the companies involved, and there are no independent sources to corroborate the claim.",
+    "recommendation": "needs_more"
+  }
+]

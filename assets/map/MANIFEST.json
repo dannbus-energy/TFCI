@@ -1,0 +1,8 @@
+{
+  "schemaVersion": "0.1",
+  "generatedAt": "2026-09-15",
+  "sourcePath": "data/geographic/tfci_jurisdiction_boundaries_simplified.geojson",
+  "sha256": "ba3f1ce02e67130ecc3256f47f50a8843c148fd8d676a74369b523045b005b2a",
+  "featureCount": 207,
+  "crs": "EPSG:4326"
+}

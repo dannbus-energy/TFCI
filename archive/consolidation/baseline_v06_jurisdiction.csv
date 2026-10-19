@@ -1,0 +1,9 @@
+jurisdiction_slug,Credibility_Score,Credibility_Band,Deployment_Score,Deployment_Band,Conversion_Ratio,source
+brazil,56,MEDIUM,57,MEDIUM,0.157,v0.6_country_scores
+germany,59,MEDIUM,60,MEDIUM,0.341,v0.6_country_scores
+japan,59,MEDIUM,59,MEDIUM,0.106,v0.6_country_scores
+nigeria,52,MEDIUM,54,MEDIUM,0.413,v0.6_country_scores
+norway,80,HIGH,83,HIGH,0.025,v0.6_country_scores
+saudi-arabia,63,MEDIUM,65,MEDIUM,0.098,v0.6_country_scores
+singapore,77,HIGH,75,HIGH,0.007,v0.6_country_scores
+united-states,66,MEDIUM,64,MEDIUM,0.071,v0.6_country_scores

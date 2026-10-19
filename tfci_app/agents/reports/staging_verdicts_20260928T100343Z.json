@@ -1,0 +1,133 @@
+[
+  {
+    "candidate_id": "STG-0009",
+    "claim_match": true,
+    "source_reachable": false,
+    "source_title": "",
+    "independent_sources": [],
+    "primary_sources": [
+      {
+        "title": "atNorth expands to Norway with new mega site in Haugaland",
+        "url": "https://www.atnorth.com/news/atnorth-expands-to-norway-with-new-mega-site-in-haugaland/",
+        "classification": "primary",
+        "quote": "This marks a major milestone for the company, establishing its footprint across all Nordic countries and further reinforcing its commitment to delivering sustainable, scalable infrastructure in prime locations across the region."
+      },
+      {
+        "title": "CPP Investments and Equinix complete atNorth acquisition",
+        "url": "https://www.atnorth.com/news/cpp-investments-and-equinix-complete-atnorth-acquisition-to-support-growth-of-leading-nordic-data-center-platform/",
+        "classification": "primary",
+        "quote": "atNorth is headquartered in Reykjavik, Iceland and operates eight data centers in strategic locations across the Nordics, as well as four mega sites under development across Kouvola, Finland, \u00d8lgod, Denmark, Sollefte\u00e5, Sweden and Haugaland, Norway."
+      }
+    ],
+    "unfaithful_sources": [],
+    "provisional_grade": "C",
+    "provisional_recommendation": "needs_more",
+    "rationale": "The candidate event pertains to atNorth's expansion project in Haugaland, Norway. The sources confirm atNorth's plans for a mega data center in Haugaland, aligning with the details of the candidate event.",
+    "policy_version": "0.1",
+    "verified_independent": [],
+    "verified_primary": [
+      {
+        "title": "atNorth expands to Norway with new mega site in Haugaland",
+        "url": "https://www.atnorth.com/news/atnorth-expands-to-norway-with-new-mega-site-in-haugaland/",
+        "classification": "primary",
+        "quote": "This marks a major milestone for the company, establishing its footprint across all Nordic countries and further reinforcing its commitment to delivering sustainable, scalable infrastructure in prime locations across the region.",
+        "quote_verified": true,
+        "sha256": "8d55536ff2ad062343fc3d3d27d5bb05ccdaad65b6b14d415f89e30278185d8f",
+        "archive_path": "C:\\dev\\TFCI\\tfci_app\\agents\\vault\\STG-0009_1821f1629e85.html",
+        "http_status": 200,
+        "error": null
+      }
+    ],
+    "unverified_sources": [
+      {
+        "title": "CPP Investments and Equinix complete atNorth acquisition",
+        "url": "https://www.atnorth.com/news/cpp-investments-and-equinix-complete-atnorth-acquisition-to-support-growth-of-leading-nordic-data-center-platform/",
+        "classification": "primary",
+        "quote": "atNorth is headquartered in Reykjavik, Iceland and operates eight data centers in strategic locations across the Nordics, as well as four mega sites under development across Kouvola, Finland, \u00d8lgod, Denmark, Sollefte\u00e5, Sweden and Haugaland, Norway.",
+        "quote_verified": false,
+        "sha256": "885823497b45930bff2b2a6c53fb43fdc1b643798fa2863f59caba389410ab7b",
+        "archive_path": "C:\\dev\\TFCI\\tfci_app\\agents\\vault\\STG-0009_656db7ec1a8f.html",
+        "http_status": 200,
+        "error": null
+      }
+    ],
+    "evidence_grade": "C",
+    "recommendation": "needs_more",
+    "corroboration_found": false
+  },
+  {
+    "candidate_id": "STG-0010",
+    "claim_match": true,
+    "source_reachable": false,
+    "source_title": "",
+    "independent_sources": [
+      {
+        "title": "Scatec ASA, Equinor ASA e Hydro Rein iniciam constru\u00e7\u00e3o de parque solar de 531 MW no RN | Empresas | Valor Econ\u00f4mico",
+        "url": "https://valor.globo.com/empresas/noticia/2022/07/08/scatec-asa-equinor-asa-e-hydro-rein-iniciam-construcao-de-parque-solar-de-531-mw-no-rn.ghtml",
+        "classification": "independent",
+        "quote": "Scatec ASA, Equinor ASA e Hydro Rein iniciaram a constru\u00e7\u00e3o da usina solar Mendubim, de 531 MW de capacidade instalada, localizada no Rio Grande do Norte."
+      }
+    ],
+    "primary_sources": [
+      {
+        "title": "Scatec and partners sign PPA and start construction activities at the Mendubim solar project in Brazil \u2013 Scatec Group",
+        "url": "https://www.scatec.com/en/scatec-and-partners-sign-ppa-and-start-construction-activities-at-the-mendubim-solar-project-in-brazil/",
+        "classification": "primary",
+        "quote": "Scatec ASA, a leading renewable energy solutions provider, is starting construction activities together with partners for the Mendubim solar project in the state of Rio Grande do Norte in Brazil."
+      },
+      {
+        "title": "Hydro Rein e parceiros assinam PPA e iniciam constru\u00e7\u00e3o do projeto solar Mendubim no Brasil | Hydro",
+        "url": "https://www.hydro.com/br/global/imprensa/noticias/2022/hydro-rein-and-partners-sign-ppa-and-start-construction-activities-at-the-mendubim-solar-project-in-brazil/",
+        "classification": "primary",
+        "quote": "Hydro Rein, Equinor e Scatec est\u00e3o iniciando as atividades de constru\u00e7\u00e3o do projeto solar Mendubim no estado do Rio Grande do Norte."
+      }
+    ],
+    "unfaithful_sources": [],
+    "provisional_grade": "B",
+    "provisional_recommendation": "approve",
+    "rationale": "The sources confirm the construction start of the Mendubim solar project by Scatec ASA, Equinor ASA, and Hydro Rein. The project is specifically mentioned in multiple independent and primary sources, validating the candidate event.",
+    "policy_version": "0.1",
+    "verified_independent": [
+      {
+        "title": "Scatec ASA, Equinor ASA e Hydro Rein iniciam constru\u00e7\u00e3o de parque solar de 531 MW no RN | Empresas | Valor Econ\u00f4mico",
+        "url": "https://valor.globo.com/empresas/noticia/2022/07/08/scatec-asa-equinor-asa-e-hydro-rein-iniciam-construcao-de-parque-solar-de-531-mw-no-rn.ghtml",
+        "classification": "independent",
+        "quote": "Scatec ASA, Equinor ASA e Hydro Rein iniciaram a constru\u00e7\u00e3o da usina solar Mendubim, de 531 MW de capacidade instalada, localizada no Rio Grande do Norte.",
+        "quote_verified": true,
+        "sha256": "797b81f0e450de8bccb390d0cb0348f2b0d4de2fb98298828f0fb89d52fe47e4",
+        "archive_path": "C:\\dev\\TFCI\\tfci_app\\agents\\vault\\STG-0010_65250cb74fe2.html",
+        "http_status": 200,
+        "error": null
+      }
+    ],
+    "verified_primary": [
+      {
+        "title": "Scatec and partners sign PPA and start construction activities at the Mendubim solar project in Brazil \u2013 Scatec Group",
+        "url": "https://www.scatec.com/en/scatec-and-partners-sign-ppa-and-start-construction-activities-at-the-mendubim-solar-project-in-brazil/",
+        "classification": "primary",
+        "quote": "Scatec ASA, a leading renewable energy solutions provider, is starting construction activities together with partners for the Mendubim solar project in the state of Rio Grande do Norte in Brazil.",
+        "quote_verified": true,
+        "sha256": "9f540378d42cb304af21ec707deba748446ec20e3cfed4cd59b79487c2a15280",
+        "archive_path": "C:\\dev\\TFCI\\tfci_app\\agents\\vault\\STG-0010_36fee1c87a61.html",
+        "http_status": 200,
+        "error": null
+      }
+    ],
+    "unverified_sources": [
+      {
+        "title": "Hydro Rein e parceiros assinam PPA e iniciam constru\u00e7\u00e3o do projeto solar Mendubim no Brasil | Hydro",
+        "url": "https://www.hydro.com/br/global/imprensa/noticias/2022/hydro-rein-and-partners-sign-ppa-and-start-construction-activities-at-the-mendubim-solar-project-in-brazil/",
+        "classification": "primary",
+        "quote": "Hydro Rein, Equinor e Scatec est\u00e3o iniciando as atividades de constru\u00e7\u00e3o do projeto solar Mendubim no estado do Rio Grande do Norte.",
+        "quote_verified": false,
+        "sha256": "2eb10dc8c2d0f79751873e3d4fa279ed83ae5218190a0328de55aea1fe1af7cc",
+        "archive_path": "C:\\dev\\TFCI\\tfci_app\\agents\\vault\\STG-0010_dcf28c5176c2.html",
+        "http_status": 200,
+        "error": null
+      }
+    ],
+    "evidence_grade": "B",
+    "recommendation": "approve",
+    "corroboration_found": true
+  }
+]

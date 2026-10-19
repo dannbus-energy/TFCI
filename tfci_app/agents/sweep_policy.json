@@ -1,0 +1,10 @@
+{
+  "policy_version": "0.1",
+  "model": "openai/gpt-4o-mini",
+  "temperature": 0.0,
+  "search_mode": "openrouter :online",
+  "max_sources_per_candidate": 5,
+  "languages": ["jurisdiction-primary", "english"],
+  "grading": "deterministic: code counts faithful verified sources",
+  "notes": "sweep breadth/depth governed per sector in data/sourcing_policy.csv; this file governs the agent invocation, not the research policy."
+}

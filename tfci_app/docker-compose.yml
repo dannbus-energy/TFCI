@@ -1,0 +1,44 @@
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    container_name: tfci_db
+    environment:
+      POSTGRES_USER: tfci
+      POSTGRES_PASSWORD: tfci
+      POSTGRES_DB: tfci
+    ports:
+      - "5433:5432"
+    volumes:
+      - tfci_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U tfci -d tfci"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  adminer:
+    image: adminer:latest
+    container_name: tfci_adminer
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+
+  api:
+    build:
+      context: ..
+      dockerfile: tfci_app/Dockerfile
+    container_name: tfci_api
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://tfci:tfci@db:5432/tfci
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      # Mount data as read-only so the API can serve the materialized payload securely
+      - ../data:/app/data:ro
+volumes:
+  tfci_pgdata:

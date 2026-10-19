@@ -1,0 +1,6 @@
+
+# Ignore large raw data files
+gem-data.zip
+data/ingest/
+*.zip
+*.xlsx

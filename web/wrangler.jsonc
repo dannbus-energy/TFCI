@@ -1,0 +1,8 @@
+{
+  "name": "tfci-dashboard",
+  "compatibility_date": "2026-09-28",
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "none"
+  }
+}

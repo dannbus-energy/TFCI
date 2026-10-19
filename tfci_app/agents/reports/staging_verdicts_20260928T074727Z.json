@@ -1,0 +1,12 @@
+[
+  {
+    "candidate_id": null,
+    "error": "Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}",
+    "recommendation": "needs_more"
+  },
+  {
+    "candidate_id": null,
+    "error": "Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}",
+    "recommendation": "needs_more"
+  }
+]

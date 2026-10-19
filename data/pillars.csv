@@ -1,0 +1,7 @@
+pillar_slug,pillar_id,name,question,definition,icon_url
+regulatory-certainty,P1,Regulatory Certainty,Are the rules binding and protected from arbitrary reversal?,"Measures the statutory enforcement probability, legal stability, and absence of retroactive policy shifts in the new energy transition.",p1_regulatory.svg
+physical-bandwidth,P2,Physical Bandwidth,Does the jurisdiction possess the physical capacity to execute the transition?,"Evaluates grid baseload, water security, land availability, and critical mineral endowment required for new energy infrastructure.",p2_physical.svg
+capital-architecture,P3,Capital Architecture,Is the financial system deep and stable enough to fund generational CapEx?,"Assesses sovereign wealth depth, green premium financing, capital market liquidity, and currency stability for long-term infrastructure deployment.",p3_capital.svg
+social-license,P4,Social License,Does the populace consent to the physical and economic realities of the transition?,"Measures labor transition readiness, community acceptance of infrastructure, and social stability against populist energy backlash.",p4_social.svg
+execution-velocity,P5,Execution Velocity,Can the state and private sector deliver projects on time and within budget?,"Evaluates permitting speed, supply chain logistics, construction labor availability, and historical infrastructure delivery rates.",p5_execution.svg
+none,P0,No Veto,,No structural veto triggered. The jurisdiction meets the baseline threshold for this pillar.,p0_none.svg

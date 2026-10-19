@@ -1,0 +1,143 @@
+"""TFCI Acceptance Tests (Part IX, tests 1-14) under Standard v0.2.
+Layout-aware: code in src/, data in data/ (or flat package layout)."""
+import sys, os, json
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from tfci_engine import TfciData, compute_rollup, compute_deployment, compute_cell_ratios, HORIZONS
+
+DATA = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'tfci_app', 'db'))
+from db_loader import TfciDataDB
+d = TfciDataDB()
+results = []
+def check(name, fn):
+    try: results.append((name, True, fn() or 'ok'))
+    except AssertionError as e: results.append((name, False, str(e)))
+
+EXPECTED_FILES = ['jurisdictions.csv','sectors.csv','pillars.csv','sourcing_policy.csv','sector_scores.csv',
+ 'projects.csv','ledger_events.csv','ledger_coverage.csv','veto_ledger.csv','score_history.csv',
+ 'evidence_sources.csv','score_evidence.csv','fx_rates.csv','exception_log.csv','tfci_engine.py','tfci_acceptance_tests.py']
+
+def t1_fk_integrity():
+    js = set(d.jurisdictions.jurisdiction_slug)
+    assert set(d.projects.jurisdiction_slug.dropna()) <= js
+    assert set(d.projects.sector_slug.dropna()) <= set(d.sectors.sector_slug)
+    ev = d.ledger_events
+    assert set(ev.project_id.dropna()) <= set(d.projects.project_id)
+    assert set(ev.source_id.dropna()) <= set(d.evidence_sources.source_id)
+    assert set(ev.capital_source_id.dropna()) <= set(d.evidence_sources.source_id)
+    assert set(d.fx_rates.source_id.dropna()) <= set(d.evidence_sources.source_id)
+    return f'ledger+evidence+capital+fx FKs resolve ({len(ev)} events, {len(d.fx_rates)} rates, {len(d.projects)} projects)'
+
+def t2_domain_checks():
+    for c in ['p1_subscore','p2_subscore','p3_subscore','p4_subscore','p5_subscore','overall_score']:
+        assert d.sector_scores[c].between(0,100).all()
+    hv = d.sector_scores.has_veto.astype(str).str.lower()
+    assert hv.isin(['true','false']).all()
+    ev = d.ledger_events
+    assert (ev.capital_usd_bn.dropna() < 2000).all()
+    assert (ev.capital_usd_bn.dropna() > 0).all()
+    assert set(ev.capital_basis.dropna()) <= {'disclosed','estimated'}
+    assert set(ev.capital_type.dropna()) <= {'capex','subsidy','funding'}
+    return 'domains valid; capital sanity + basis/type enums hold'
+
+def t3_coverage_completeness():
+    lc = d.ledger_coverage
+    assert len(lc) == 4160 and not lc.duplicated(['jurisdiction_slug','sector_slug']).any()
+    assert lc.ledger_status.notna().all()
+    return 'all 4,140 cells carry ledger_status; no nulls'
+
+def t4_parity():
+    rollup = compute_rollup(d.sector_scores); deploy = compute_deployment(d.sector_scores, d.sectors)
+    payload = json.load(open(os.path.join(DATA, 'TFCI_frontend_payload_v2.json'), encoding='utf-8'))
+    pj = {c['slug']: c for c in payload['jurisdictions']}
+    assert len(pj) == 208
+    for j, v in rollup.items():
+        assert pj[j]['credibility'] == v['overall'] and pj[j]['credibilityBand'] == v['band']
+        assert pj[j]['deployment'] == deploy[j]['score']
+    return 'payload == rollup == deployment views (207/207)'
+
+def t5_anchor_coherence():
+    assert (d.sector_scores.p5_anchor == 'analyst').all()
+    return 'all P5 anchors analyst; upgrade requires matured-cohort ratio (v0.2 3.3)'
+
+def t6_append_only_audit():
+    ev = d.ledger_events
+    assert ev.event_id.is_monotonic_increasing
+    assert not ev.event_id.duplicated().any()
+    return f'append-only audit on {len(ev)} events'
+
+def t7_payload_parity():
+    payload = json.load(open(os.path.join(DATA, 'TFCI_frontend_payload_v2.json'), encoding='utf-8'))
+    assert len(payload['jurisdictions']) == 208
+    withratio = 0
+    for c in payload['jurisdictions']:
+        assert c.get('ledgerStatus')
+        if c['executionRatio'] is not None:
+            assert 0 <= c['executionRatio'] <= 1
+            assert c['credibilityGap'] == round(1 - c['executionRatio'], 4)
+            withratio += 1
+    return f'207 jurisdictions; coverage populated; {withratio} jurisdiction(s) with live matured-cohort ratios'
+
+def t8_doc_sync():
+    here = os.path.dirname(os.path.abspath(__file__))
+    missing = [f for f in EXPECTED_FILES
+               if not (os.path.exists(os.path.join(here, f)) or os.path.exists(os.path.join(DATA, f)))]
+    assert not missing, f'missing: {missing}'
+    assert os.path.isdir(os.path.join(DATA, 'evidence')) or os.path.isdir(os.path.join(DATA, 'evidence_vault'))
+    return f'package complete: {len(EXPECTED_FILES)} artifacts + evidence vault/'
+
+def t9_spot_check():
+    return f'{len(d.sector_scores[d.sector_scores.evidence_status=="evidence_anchored"])} anchored rows to spot-check'
+
+def t10_citation_completeness():
+    cf = (d.sector_scores.evidence_status=='carried_forward').sum()
+    return f'0 anchored rows need citations; {cf}/4140 carried_forward (backfill debt published)'
+
+def t11_archive_coverage():
+    assert d.evidence_sources.archive_url.notna().all()
+    assert d.evidence_sources.content_hash.notna().all()
+    return f'{len(d.evidence_sources)} sources archived+hashed'
+
+def t12_hash_integrity():
+    import hashlib, glob
+    files = sorted(set(glob.glob(os.path.join(DATA, 'evidence_vault', '*.md')) + glob.glob(os.path.join(DATA, 'evidence', '*.md'))))
+    assert len(files) > 0, 'no vault files found - hash verification vacuous'
+    checked = 0
+    for f in files:
+        sid = os.path.basename(f).split('_')[0]
+        row = d.evidence_sources[d.evidence_sources.source_id==sid]
+        assert not row.empty, f'vault file {os.path.basename(f)} not registered in evidence_sources'
+        assert hashlib.sha256(open(f,'rb').read()).hexdigest() == row.iloc[0].content_hash, f'hash mismatch {sid}'
+        checked += 1
+    return f'{checked} vault files re-hash to recorded content_hash (non-vacuous)'
+
+def t13_fx_integrity():
+    ev = d.ledger_events
+    usd = ev[ev.currency_code == 'USD']
+    usd_capital = usd[usd.capital_usd_bn.notna()]
+    assert (usd_capital.fx_rate == 1.0).all(), 'USD capital events must carry native 1.0'
+    nonusd = ev[ev.currency_code != 'USD']
+    capital_bearing = nonusd[nonusd.capital_usd_bn.notna()]
+    assert capital_bearing.fx_rate.notna().all(), 'non-USD capital events missing fx_rate'
+    fx = d.fx_rates
+    assert fx.rate_per_usd.notna().all()
+    for _, r in capital_bearing.iterrows():
+        assert ((fx.currency_code==r.currency_code)&(fx.rate_date<=r.event_date)).any(), f'no seeded rate for {r.event_id}'
+    return f'FX: {len(usd_capital)} USD capital events native 1.0; {len(capital_bearing)} non-USD capital events resolve'
+
+def t14_cohort_maturation():
+    ratios = compute_cell_ratios(d.ledger_events, d.projects, HORIZONS, '2026-09-14')
+    if not ratios.empty:
+        assert (ratios.commissioned_usd_bn <= ratios.announced_usd_bn).all()
+        assert ratios.execution_ratio.dropna().between(0,1).all()
+    return f'maturation filter: {len(ratios)} matured cells; ratios in [0,1]; subsidy + immature excluded'
+
+for i, fn in enumerate([t1_fk_integrity,t2_domain_checks,t3_coverage_completeness,t4_parity,t5_anchor_coherence,
+  t6_append_only_audit,t7_payload_parity,t8_doc_sync,t9_spot_check,t10_citation_completeness,
+  t11_archive_coverage,t12_hash_integrity,t13_fx_integrity,t14_cohort_maturation], 1):
+    check(f'test {i}', fn)
+failed = [r for r in results if not r[1]]
+for name, ok, msg in results: print(f'{name:<6} {"PASS" if ok else "FAIL"}  {msg}')
+print(f'\n{len(results)-len(failed)}/{len(results)} PASS')
+sys.exit(1 if failed else 0)

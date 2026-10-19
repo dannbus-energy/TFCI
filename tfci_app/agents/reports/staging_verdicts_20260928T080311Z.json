@@ -1,0 +1,71 @@
+[
+  {
+    "candidate_id": "STG-0009",
+    "source_reachable": false,
+    "source_title": "",
+    "independent_sources": [],
+    "primary_sources": [
+      {
+        "title": "CPP Investments and Equinix complete atNorth acquisition",
+        "url": "https://www.atnorth.com/news/cpp-investments-and-equinix-complete-atnorth-acquisition-to-support-growth-of-leading-nordic-data-center-platform/"
+      },
+      {
+        "title": "atNorth expands to Norway with new mega site in Haugaland",
+        "url": "https://www.atnorth.com/news/atnorth-expands-to-norway-with-new-mega-site-in-haugaland/"
+      }
+    ],
+    "corroboration_found": false,
+    "evidence_grade": "C",
+    "rationale": "Only primary sources from atNorth were found, which do not count as independent corroboration. No independent sources were identified to support the event claim regarding the NOK 11 billion announcement.",
+    "recommendation": "reject"
+  },
+  {
+    "candidate_id": "STG-0010",
+    "source_reachable": false,
+    "source_title": "",
+    "independent_sources": [
+      {
+        "title": "Hydro Rein and partners sign PPA and start construction activities at the Mendubim solar project in Brazil",
+        "url": "https://www.hydro.com/en/global/media/news/2022/hydro-rein-and-partners-sign-ppa-and-start-construction-activities-at-the-mendubim-solar-project-in-brazil",
+        "independent": false
+      },
+      {
+        "title": "Scatec ASA, Equinor ASA e Hydro Rein iniciam constru\u00e7\u00e3o de parque solar de 531 MW no RN",
+        "url": "https://valor.globo.com/empresas/noticia/2022/07/08/scatec-asa-equinor-asa-e-hydro-rein-iniciam-construcao-de-parque-solar-de-531-mw-no-rn.ghtml",
+        "independent": false
+      },
+      {
+        "title": "Scaling solar in Brazil",
+        "url": "https://www.equinor.com/news/20221207-scaling-solar-brazil",
+        "independent": false
+      },
+      {
+        "title": "Scatec and partners sign PPA and start construction activities at the Mendubim solar project in Brazil",
+        "url": "https://kommunikasjon.ntb.no/pressemelding/17937336/scatec-and-partners-sign-ppa-and-start-construction-activities-at-the-mendubim-solar-project-in-brazil?publisherId=4954260",
+        "independent": false
+      }
+    ],
+    "primary_sources": [
+      {
+        "title": "Hydro Rein and partners sign PPA and start construction activities at the Mendubim solar project in Brazil",
+        "url": "https://www.hydro.com/en/global/media/news/2022/hydro-rein-and-partners-sign-ppa-and-start-construction-activities-at-the-mendubim-solar-project-in-brazil"
+      },
+      {
+        "title": "Scatec ASA, Equinor ASA e Hydro Rein iniciam constru\u00e7\u00e3o de parque solar de 531 MW no RN",
+        "url": "https://valor.globo.com/empresas/noticia/2022/07/08/scatec-asa-equinor-asa-e-hydro-rein-iniciam-construcao-de-parque-solar-de-531-mw-no-rn.ghtml"
+      },
+      {
+        "title": "Scaling solar in Brazil",
+        "url": "https://www.equinor.com/news/20221207-scaling-solar-brazil"
+      },
+      {
+        "title": "Scatec and partners sign PPA and start construction activities at the Mendubim solar project in Brazil",
+        "url": "https://kommunikasjon.ntb.no/pressemelding/17937336/scatec-and-partners-sign-ppa-and-start-construction-activities-at-the-mendubim-solar-project-in-brazil?publisherId=4954260"
+      }
+    ],
+    "corroboration_found": false,
+    "evidence_grade": "D",
+    "rationale": "All sources found are either primary or self-published by the project participants, which do not meet the criteria for independent corroboration. No independent sources were identified to support the event claim.",
+    "recommendation": "reject"
+  }
+]

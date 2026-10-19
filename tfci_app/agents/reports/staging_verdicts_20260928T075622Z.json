@@ -1,0 +1,44 @@
+[
+  {
+    "candidate_id": null,
+    "source_reachable": false,
+    "source_title": "",
+    "independent_sources": [
+      {
+        "title": "atNorth expands to Norway with new mega site in Haugaland",
+        "url": "https://www.atnorth.com/news/atnorth-expands-to-norway-with-new-mega-site-in-haugaland/"
+      },
+      {
+        "title": "CPP Investments and Equinix complete atNorth acquisition",
+        "url": "https://www.atnorth.com/news/cpp-investments-and-equinix-complete-atnorth-acquisition-to-support-growth-of-leading-nordic-data-center-platform/"
+      }
+    ],
+    "corroboration_found": true,
+    "evidence_grade": "B",
+    "rationale": "The announcement of atNorth's expansion into Norway and the establishment of a mega data center in Haugaland corroborates the financial commitment of NOK 11 billion. The sources detail atNorth's strategic investments and growth plans in the region, aligning with the candidate event's claims.",
+    "recommendation": "approve"
+  },
+  {
+    "candidate_id": null,
+    "source_reachable": false,
+    "source_title": "",
+    "independent_sources": [
+      {
+        "title": "Scatec and partners sign PPA and start construction activities at the Mendubim solar project in Brazil",
+        "url": "https://www.scatec.com/en/scatec-and-partners-sign-ppa-and-start-construction-activities-at-the-mendubim-solar-project-in-brazil/"
+      },
+      {
+        "title": "Scaling solar in Brazil",
+        "url": "https://www.equinor.com/news/20221207-scaling-solar-brazil"
+      },
+      {
+        "title": "White & Case Advises IDB Invest on US$440 Million Financing For Mendubim Solar Photovoltaic Power Plants in Brazil",
+        "url": "https://www.whitecase.com/news/press-release/white-case-advises-idb-invest-us440-million-financing-mendubim-solar"
+      }
+    ],
+    "corroboration_found": true,
+    "evidence_grade": "A",
+    "rationale": "Multiple independent sources confirm the construction start of the Mendubim solar project in Brazil, including details about the project's capacity and financial aspects. The Scatec source provides specific information about the power purchase agreement and construction activities, while the Equinor and White & Case sources discuss financing and project details, reinforcing the credibility of the event.",
+    "recommendation": "approve"
+  }
+]

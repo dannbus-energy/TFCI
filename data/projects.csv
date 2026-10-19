@@ -1,0 +1,33 @@
+project_id,jurisdiction_slug,sector_slug,project_name,capacity_unit,created_at
+PRJ-2026-0001,saudi-arabia,hydrogen-powerfuels,NEOM Green Hydrogen Company (Oxagon),tonnes H2/day,2026-09-14
+PRJ-2026-0002,united-states,utility-scale-renewables,Gemini Solar + Storage (Clark County NV),MWac,2026-09-14
+PRJ-2026-0003,japan,semiconductors,Rapidus IIM-1 (Chitose Hokkaido),wafers/month,2026-09-14
+PRJ-2026-0004,singapore,energy-storage-flexibility,Sembcorp Jurong Island ESS,MWh,2026-09-14
+PRJ-2026-0005,brazil,utility-scale-renewables,Serra da Babilonia Solar (Equinor/Rio Energy),MW,2026-09-14
+PRJ-2026-0006,japan,semiconductors,Rapidus 2nm National Program (Japan),program,2026-09-14
+PRJ-2026-0007,norway,ai-compute,Stargate Norway / Microsoft AI Infrastructure (Narvik region),MW,2026-09-14
+PRJ-2026-0008,germany,hydrogen-powerfuels,RWE GET H2 Nukleus (Lingen),MW,2026-09-14
+PRJ-2026-0009,germany,utility-scale-renewables,EnBW He Dreiht (North Sea offshore wind),MW,2026-09-14
+PRJ-2026-0010,united-states,utility-scale-renewables,Edwards & Sanborn Solar + Storage (Kern County CA),MWdc,2026-09-14
+PRJ-2026-0011,saudi-arabia,utility-scale-renewables,Dumat Al Jandal Wind (Al Jouf),MW,2026-09-14
+PRJ-2026-0012,united-states,energy-storage-flexibility,Vistra Moss Landing Energy Storage (Phase 1),MW,2026-09-14
+PRJ-2026-0013,saudi-arabia,utility-scale-renewables,Sakaka Solar PV IPP (Al Jouf),MW,2026-09-14
+PRJ-2026-0016,vietnam,utility-scale-renewables,Dau Tieng 1+2 Solar Complex (Xuan Cau Holdings - Tay Ninh),MWdc,2026-09-14
+PRJ-2026-0017,poland,utility-scale-renewables,Baltic Power Offshore Wind (ORLEN/Northland Power),MW,2026-09-14
+PRJ-2026-0018,denmark,utility-scale-renewables,Vesterhav Nord and Syd Offshore Wind,MW,2026-09-14
+PRJ-2026-0019,mexico,utility-scale-renewables,Villanueva Solar PV Plant (Coahuila),MW,2026-09-14
+PRJ-2026-0020,philippines,utility-scale-renewables,Burgos Wind Power Project (Ilocos Norte),MW,2026-09-14
+PRJ-2026-0021,pakistan,utility-scale-renewables,Quaid-e-Azam Solar Power Plant Phase I (Bahawalpur),MW,2026-09-14
+PRJ-2026-0022,bangladesh,utility-scale-renewables,Feni Utility-Scale Solar PV (Sonagazi),MW,2026-09-14
+PRJ-2026-0023,argentina,utility-scale-renewables,Cauchari Solar Park Phase I (Jujuy),MW,2026-09-14
+PRJ-2026-0024,egypt,utility-scale-renewables,ACCIONA-ENARA Benban PV Portfolio (Aswan),MW,2026-09-14
+PRJ-2026-0025,south-africa,utility-scale-renewables,Kathu Solar Park CSP (Northern Cape),MW,2026-09-14
+PRJ-2026-0026,thailand,utility-scale-renewables,Hanuman Wind Power Project (Chaiyaphum),MW,2026-09-14
+PRJ-2026-0027,italy,advanced-manufacturing,3Sun PV Gigafactory Expansion (Catania),GW/year,2026-09-14
+PRJ-2026-0028,serbia,utility-scale-renewables,Cibuk 1 Wind Farm (Vojvodina),MW,2026-09-14
+PRJ-2026-0029,ukraine,utility-scale-renewables,Syvash Wind Farm (Kherson),MW,2026-09-14
+PRJ-2026-0030,bosnia-herzegovina,utility-scale-renewables,Podvelezje Wind Farm (Mostar),MW,2026-09-14
+PRJ-2026-0031,ethiopia,utility-scale-renewables,Assela Wind Farm,MW,2026-09-14
+PRJ-2026-0032,ghana,utility-scale-renewables,Galgu Solar Plant (Yendi),MW,2026-09-14
+PRJ-2026-0033,sri-lanka,utility-scale-renewables,WindForce Siyabalanduwa Solar Project,MW,2026-09-14
+PRJ-2026-0015,brazil,utility-scale-renewables,Mendubim Solar Complex,531 MWp,2026-09-28

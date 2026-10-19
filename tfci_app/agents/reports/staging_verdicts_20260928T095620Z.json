@@ -1,0 +1,63 @@
+[
+  {
+    "candidate_id": "STG-0009",
+    "claim_match": true,
+    "source_reachable": false,
+    "source_title": "",
+    "independent_sources": [],
+    "primary_sources": [
+      {
+        "title": "atNorth expands to Norway with new mega site in Haugaland",
+        "url": "https://www.atnorth.com/news/atnorth-expands-to-norway-with-new-mega-site-in-haugaland/",
+        "classification": "primary",
+        "quote": "This marks a major milestone for the company, establishing its footprint across all Nordic countries and further reinforcing its commitment to delivering sustainable, scalable infrastructure in prime locations across the region."
+      },
+      {
+        "title": "CPP Investments and Equinix complete atNorth acquisition",
+        "url": "https://www.atnorth.com/news/cpp-investments-and-equinix-complete-atnorth-acquisition-to-support-growth-of-leading-nordic-data-center-platform/",
+        "classification": "primary",
+        "quote": "atNorth\u2019s footprint spans across all five Nordic countries, with eight operational data centers and several new projects underway across the territory."
+      }
+    ],
+    "unfaithful_sources": [],
+    "corroboration_found": false,
+    "evidence_grade": "C",
+    "model_grade": null,
+    "rationale": "The candidate event pertains to atNorth's expansion project in Norway. The sources confirm atNorth's activities and expansion plans, specifically mentioning their new mega site in Haugaland, which aligns with the candidate's event details.",
+    "recommendation": "needs_more"
+  },
+  {
+    "candidate_id": "STG-0010",
+    "claim_match": true,
+    "source_reachable": false,
+    "source_title": "",
+    "independent_sources": [
+      {
+        "title": "Scatec ASA, Equinor ASA e Hydro Rein iniciam constru\u00e7\u00e3o de parque solar de 531 MW no RN | Empresas | Valor Econ\u00f4mico",
+        "url": "https://valor.globo.com/empresas/noticia/2022/07/08/scatec-asa-equinor-asa-e-hydro-rein-iniciam-construcao-de-parque-solar-de-531-mw-no-rn.ghtml",
+        "classification": "independent",
+        "quote": "Scatec ASA, Equinor ASA e Hydro Rein iniciaram a constru\u00e7\u00e3o da usina solar Mendubim, de 531 MW de capacidade instalada."
+      }
+    ],
+    "primary_sources": [
+      {
+        "title": "Scatec and partners sign PPA and start construction activities at the Mendubim solar project in Brazil \u2013 Scatec Group",
+        "url": "https://www.scatec.com/en/scatec-and-partners-sign-ppa-and-start-construction-activities-at-the-mendubim-solar-project-in-brazil/",
+        "classification": "primary",
+        "quote": "Scatec ASA, a leading renewable energy solutions provider, is starting construction activities together with partners for the Mendubim solar project in the state of Rio Grande do Norte in Brazil."
+      },
+      {
+        "title": "Hydro Rein e parceiros assinam PPA e iniciam constru\u00e7\u00e3o do projeto solar Mendubim no Brasil | Hydro",
+        "url": "https://www.hydro.com/br/global/imprensa/noticias/2022/hydro-rein-and-partners-sign-ppa-and-start-construction-activities-at-the-mendubim-solar-project-in-brazil/",
+        "classification": "primary",
+        "quote": "Hydro Rein, Equinor e Scatec est\u00e3o iniciando as atividades de constru\u00e7\u00e3o do projeto solar Mendubim no estado do Rio Grande do Norte."
+      }
+    ],
+    "unfaithful_sources": [],
+    "corroboration_found": true,
+    "evidence_grade": "B",
+    "model_grade": null,
+    "rationale": "The candidate event pertains to the construction start of the Mendubim solar project by Scatec ASA, Equinor ASA, and Hydro Rein in Brazil. Multiple sources confirm the construction activities for the Mendubim project, providing a strong basis for the claim.",
+    "recommendation": "approve"
+  }
+]

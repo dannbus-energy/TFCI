@@ -1,0 +1,34 @@
+exception_id,wave,batch,jurisdiction_slug,sector_slug,phase,category,description,proposed_rule,status,resolved_in_section
+EXC-0001,wave0,genesis,,,schema,date_precision_gap,Year/month precision.,Implemented.,resolved,5.2
+EXC-0002,wave0,genesis,,,vocabulary,source_type_enum_gap,Missing types.,Amended v0.2 2.8.,resolved,2.8
+EXC-0003,wave0,genesis,,,collection,capital_ambiguity,Doctrine decided.,Ratified v0.2 4.1.,resolved,4.1
+EXC-0004,wave0,genesis,,,fx,fx_rates_unseeded,Staged events.,11 rates seeded.,resolved,4.6
+EXC-0005,wave0,genesis,,,archive,archive_verification_blocked,Archives unreachable.,Local vault; mirroring pending.,partially_resolved,7.0
+EXC-0006,wave0,genesis,japan,semiconductors,sourcing,secondary_source_dependency,Rapidus tertiary.,METI primaries at full sweep.,open,3.2
+EXC-0007,wave0,genesis,,,scoring,anchor_regime_rule_gap,No matured ratio.,Amended v0.2 3.3.,resolved,3.3
+EXC-0008,wave0,genesis,,,archive,local_evidence_vault_doctrine,Archives unreachable.,Interim self-archiving v0.2.,resolved,7.0
+EXC-0009,wave0,genesis,,,scoring,announced_base_denominator_rule,NEOM 5/8.4.,Amended v0.2 4.2.,resolved,4.2
+EXC-0010,wave0,genesis,brazil,,fx,fx_source_hierarchy_fallback,BRL PTAX carrier.,Two-sided rule v0.2 4.6.,resolved,4.6
+EXC-0011,wave0,genesis,,,schema,units_convention_error,Millions vs bn.,Amended v0.2 5.4.,resolved,5.4
+EXC-0012,wave0,genesis,singapore,,collection,capital_basis_doctrine,Sembcorp estimate.,Estimated doctrine v0.2 4.1.,resolved,4.1
+EXC-0013,wave0,genesis,germany,,collection,funding_vs_capex,RWE subsidy.,capital_type recorded.,resolved,4.1
+EXC-0014,wave0,genesis,brazil,,schema,single_source_id_limitation,Provenance split.,capital_source_id added.,resolved,5.2
+EXC-0015,wave0,genesis,nigeria,utility-scale-renewables,sweep,sweep_incomplete_no_bar_meeting_projects,No FID-stage projects.,Annex Part B.,open,2.2
+EXC-0016,wave0,genesis,germany,,archive,snippet_scope_captures,Snippet scope.,Full-page fetches failed (EXC-0027); retry.,open,7.0
+EXC-0017,wave0,genesis,,,schema,h10_asterisk_convention,Inverted quotes.,Amended v0.2 4.6.,resolved,4.6
+EXC-0018,wave0,genesis,,,schema,month_precision_date_convention,Approximate anchors.,Amended v0.2 5.2.,resolved,5.2
+EXC-0019,wave0,batch2,germany,utility-scale-renewables,scoring,first_matured_ratio_computed,He Dreiht ratio 0.017.,Instrument working as designed.,resolved,4.2
+EXC-0020,wave0,batch2,norway,ai-compute,sweep,atnorth_rate_fetch_failed,H.10 20260720 unreachable.,Retry failed again (EXC-0027).,open,4.6
+EXC-0021,wave0,batch3,united-states,energy-storage-flexibility,schema,asset_destruction_event_type_gap,Moss Landing fire; $400M write-off; no event type.,Propose v0.3 impairment/destruction event type.,open,4.1
+EXC-0022,wave0,batch3,united-states,energy-storage-flexibility,collection,moss_landing_capital_estimated,$420M estimate corroborated by write-off.,Estimated basis v0.2 4.1.,resolved,4.1
+EXC-0023,wave0,batch3,saudi-arabia,utility-scale-renewables,collection,source_date_conflict,Dumat commissioning Aug/Dec/2021.,Year precision per doctrine.,resolved,4.1
+EXC-0024,wave0,batch3,,,archive,vault_content_regression_from_reset,Environment resets; repo migration executed.,Repository live at C:/dev/TFCI.,resolved,7.0
+EXC-0025,wave0,repo-migration,,,schema,vacuous_test_false_pass,Test 12 passed vacuously on repo layout.,Test hardened non-vacuous.,resolved,9.0
+EXC-0026,wave0,batch4,saudi-arabia,utility-scale-renewables,collection,source_date_conflict,Sakaka commissioning 2019/Dec 2020/Apr 2021.,Corporate-primary precedence; recorded 2020-12.,resolved,4.1
+EXC-0027,wave0,batch4,,,sweep,source_fetch_failures,Hydrogeninsight/bioenergytimes unreachable; H.10 20260720 retry failed.,Retry from different network next session.,open,7.0
+EXC-0028,wave0,batch4,,,schema,applier_csv_field_count_bug,Applier v1 embedded six rows with one comma too many.,Field-count validation implemented in v2+.,resolved,9.0
+EXC-0029,wave0,batch4,,,schema,locale_default_encoding_hazard,Japanese-Windows cp932 caused UnicodeEncodeError; locale defaults mojibake non-ASCII names.,All I/O explicit UTF-8; patched engine/tests (5.4 note).,resolved,5.4
+EXC-0030,firstlight,batch5,denmark,utility-scale-renewables,sweep,vesterhav_sourcing_incomplete,Vesterhav Nord+Syd (Vattenfall; 344 MW; opened late 2024): capacity and commissioning VERIFIED; 2016 tender award date and project capital NOT sourced in this batch; Vattenfall factbook PDF fetch is the next attempt. STAGED.,Resolved: Vattenfall tender/FID/commissioning and DKK 5.2bn total investment captured as SRC-0041/42/43/45; DKK FX SRC-0044.,resolved,3.2
+EXC-0031,firstlight,batch5,poland,utility-scale-renewables,collection,baltic_power_capex_pending,Baltic Power first power 2026-07-10 (day precision) and construction start 2025-01 (month) VERIFIED (SRC-0037); project capex NOT stated in captured sources; PLN 900M KPO is subsidy-class refinancing not capex. Events recorded with null capital.,Resolved: ORLEN total project budget EUR 4.73bn captured as SRC-0039; EUR FX SRC-0040.,resolved,4.1
+EXC-0032,firstlight,batch5,vietnam,utility-scale-renewables,collection,dau_tieng_partial_complex_capital,Dau Tieng capital figure (USD 397.6M / VND 9100bn) covers Dau Tieng 1+2; the 500 MW complex includes DT3 with separate financing. Project scoped to DT1+2 with complex context vaulted; announcement 2018 year-precision.,Scope project to DT1+2; DT3 may be added as separate project at full Vietnam sweep.,resolved,4.1
+EXC-0033,firstlight,batch5,,,schema,exception_log_field_count_misalignment,Generic exception rows (empty jurisdiction/sector) since wave0 carried 12 fields against the 11-column header; pandas parsed without erroring but misaligned those rows; no gate test covered exception_log schema. Fixed by full DataFrame rebuild of all 33 rows in batch 5.,Applier replaces exception_log.csv wholesale; propose schema test for exception_log in tests v0.3.,resolved,9.0

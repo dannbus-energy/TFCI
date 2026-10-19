@@ -1,0 +1,86 @@
+jurisdiction_slug,name,region,recompute_tier,sweep_cadence,capital_weight_status,firstlight_sweep_status,findings,baseline_credibility_v06,baseline_deployment_v06
+afghanistan,Afghanistan,South Asia,T3,Quarterly,provisional_derived,pending,,23,24
+algeria,Algeria,MENA,T2,Monthly,provisional_derived,pending,,56,58
+antigua-barbuda,Antigua & Barbuda,LatAm,T4,Semiannual,provisional_derived,pending,,34,34
+argentina,Argentina,LatAm,T1,Biweekly,capex_evidenced,swept,"Cauchari: $390m, 315 MW, COD 2020-09 (SRC-0053/54).",55,57
+armenia,Armenia,Central Asia,T3,Quarterly,provisional_derived,pending,,49,49
+azerbaijan,Azerbaijan,Central Asia,T3,Quarterly,provisional_derived,pending,,58,61
+bahamas,Bahamas,LatAm,T4,Semiannual,provisional_derived,pending,,57,60
+bangladesh,Bangladesh,South Asia,T1,Biweekly,capex_evidenced,swept,"Feni: $75.7m completion estimate, 75 MW, COD 2024-04-01 (SRC-0051).",48,49
+barbados,Barbados,LatAm,T4,Semiannual,provisional_derived,pending,,59,63
+belize,Belize,LatAm,T4,Annual,provisional_derived,pending,,55,59
+benin,Benin,SS Africa,T3,Quarterly,provisional_derived,pending,,57,60
+bermuda,Bermuda,N. America,T4,Annual,provisional_modelled,pending,,59,61
+bhutan,Bhutan,South Asia,T3,Quarterly,provisional_derived,pending,,49,50
+bolivia,Bolivia,LatAm,T3,Quarterly,provisional_derived,pending,,53,55
+bosnia-herzegovina,Bosnia & Herzegovina,Europe,T4,Semiannual,funding_only,swept,"Podvelezje: operating 2021; $73.4m funding, capex unassessed.",56,58
+brunei,Brunei,APAC,T3,Quarterly,provisional_derived,pending,,49,49
+burkina-faso,Burkina Faso,SS Africa,T4,Semiannual,provisional_derived,pending,,27,28
+cambodia,Cambodia,APAC,T2,Monthly,provisional_derived,pending,,56,60
+central-african-republic,Central African Republic,SS Africa,T4,Semiannual,provisional_derived,pending,,31,31
+chad,Chad,SS Africa,T4,Annual,provisional_derived,pending,,25,25
+cote-divoire,Côte d'Ivoire,SS Africa,T2,Monthly,provisional_derived,pending,,57,60
+democratic-republic-of-congo,Democratic Republic of Congo,SS Africa,T1,Biweekly,provisional_derived,pending,,43,46
+denmark,Denmark,Europe,T1,Weekly,capex_evidenced,swept,Vesterhav Nord/Syd: 2021 FID; DKK 5.2bn disclosed investment; 2024 partial commissioning; sources SRC-0041-0045.,79,82
+djibouti,Djibouti,SS Africa,T3,Quarterly,provisional_derived,pending,,40,41
+dominican-republic,Dominican Republic,LatAm,T2,Monthly,provisional_derived,pending,,57,61
+egypt,Egypt,MENA,T1,Biweekly,capex_evidenced,swept,"ACCIONA-ENARA Benban: $180m, 150 MW installed, completed 2019-02 (SRC-0055/56).",57,59
+equatorial-guinea,Equatorial Guinea,SS Africa,T4,Semiannual,provisional_derived,pending,,33,33
+eritrea,Eritrea,SS Africa,T4,Annual,provisional_derived,pending,,23,24
+ethiopia,Ethiopia,SS Africa,T1,Biweekly,capex_evidenced,swept,"Assela: $164.5m capex, 100 MW, first power 2025.",59,59
+fiji,Fiji,APAC,T3,Quarterly,provisional_derived,pending,,57,60
+gabon,Gabon,SS Africa,T3,Quarterly,provisional_derived,pending,,58,62
+ghana,Ghana,SS Africa,T1,Biweekly,capex_evidenced,swept,"Galgu: $59m capex, 50 MW, commissioned 2024-12-17.",58,60
+grenada,Grenada,LatAm,T4,Annual,provisional_derived,pending,,34,35
+guatemala,Guatemala,LatAm,T3,Quarterly,provisional_derived,pending,,59,64
+guernsey,Guernsey,Europe,T4,Annual,provisional_modelled,pending,,59,63
+guinea,Guinea,SS Africa,T3,Quarterly,provisional_derived,pending,,50,53
+guinea-bissau,Guinea-Bissau,SS Africa,T4,Semiannual,provisional_derived,pending,,33,33
+haiti,Haiti,LatAm,T4,Annual,provisional_derived,pending,,23,24
+holy-see,Holy See,Europe,T4,Annual,provisional_modelled,pending,,44,44
+honduras,Honduras,LatAm,T4,Semiannual,provisional_derived,pending,,56,59
+italy,Italy,Europe,T1,Weekly,capex_evidenced,swept,3Sun: $646.2m estimated capex; partial operation 2023-09.,56,56
+jamaica,Jamaica,LatAm,T3,Quarterly,provisional_derived,pending,,56,60
+kiribati,Kiribati,APAC,T4,Annual,provisional_derived,pending,,33,33
+laos,Laos,APAC,T2,Monthly,provisional_derived,pending,,39,40
+liberia,Liberia,SS Africa,T3,Quarterly,provisional_derived,pending,,34,34
+madagascar,Madagascar,SS Africa,T3,Quarterly,provisional_derived,pending,,37,37
+malawi,Malawi,SS Africa,T3,Quarterly,provisional_derived,pending,,37,37
+maldives,Maldives,South Asia,T4,Semiannual,provisional_derived,pending,,59,64
+mexico,Mexico,LatAm,T1,Weekly,capex_evidenced,swept,"Villanueva: $650m disclosed, 754 MW, inaugurated 2018-03-22 (SRC-0046/47).",55,56
+micronesia,Micronesia,APAC,T4,Annual,provisional_derived,pending,,34,34
+monaco,Monaco,Europe,T4,Annual,provisional_modelled,pending,,44,44
+mozambique,Mozambique,SS Africa,T2,Monthly,provisional_derived,pending,,54,57
+nauru,Nauru,APAC,T4,Semiannual,provisional_derived,pending,,33,34
+nepal,Nepal,South Asia,T2,Monthly,provisional_derived,pending,,44,45
+niger,Niger,SS Africa,T4,Semiannual,provisional_derived,pending,,25,25
+nigeria,Nigeria,SS Africa,T1,Weekly,no_qualifying_project_found,swept,No qualifying project found in current utility-scale sweep; remains unassessed.,52,54
+north-korea,North Korea,APAC,T4,Annual,provisional_derived,pending,,26,26
+pakistan,Pakistan,South Asia,T1,Biweekly,capex_evidenced,swept,"Quaid-e-Azam Phase I: $151.4314m official project price, 100 MW, COD 2015-07-15 (SRC-0049/50).",48,49
+palestine,Palestine,MENA,T3,Quarterly,provisional_derived,pending,,28,30
+papua-new-guinea,Papua New Guinea,APAC,T3,Quarterly,provisional_derived,pending,,56,60
+peru,Peru,LatAm,T2,Monthly,provisional_derived,pending,,56,59
+philippines,Philippines,APAC,T1,Biweekly,capex_evidenced,swept,"Burgos: $450m disclosed, 150 MW, commissioned 2014-11-05 (SRC-0048).",54,55
+poland,Poland,Europe,T1,Weekly,capex_evidenced,swept,Baltic Power: first power 2026-07-10; capex pending (EXC-0031),59,59
+saint-kitts-nevis,Saint Kitts & Nevis,LatAm,T4,Annual,provisional_derived,pending,,36,36
+saint-vincent-grenadines,Saint Vincent & the Grenadines,LatAm,T4,Annual,provisional_derived,pending,,34,35
+samoa,Samoa,APAC,T4,Annual,provisional_derived,pending,,35,36
+san-marino,San Marino,Europe,T4,Annual,provisional_modelled,pending,,59,62
+serbia,Serbia,Europe,T2,Monthly,capex_evidenced,swept,Cibuk 1: $330m estimated capex; operating 2019-10-11.,57,59
+seychelles,Seychelles,SS Africa,T4,Semiannual,provisional_derived,pending,,59,62
+somalia,Somalia,SS Africa,T4,Semiannual,provisional_derived,pending,,27,28
+south-africa,South Africa,SS Africa,T1,Weekly,funding_only,swept,"Kathu: lifecycle verified; $610m recorded as funding, not capex (SRC-0057/58).",56,57
+sri-lanka,Sri Lanka,South Asia,T2,Monthly,funding_only,swept,"WindForce: $18m IFC funding, 100 MW planned, pending disbursement; not capex.",56,60
+sudan,Sudan,MENA,T4,Annual,provisional_derived,pending,,23,24
+syria,Syria,MENA,T3,Quarterly,provisional_derived,pending,,29,30
+sao-tome-principe,São Tomé & Príncipe,SS Africa,T4,Semiannual,provisional_derived,pending,,34,34
+tanzania,Tanzania,SS Africa,T2,Monthly,provisional_derived,pending,,55,58
+thailand,Thailand,APAC,T1,Biweekly,capex_evidenced,swept,"Hanuman: THB 20bn capex ($576.1m), 260 MW, COD 2019-04; later bond excluded as funding (SRC-0059-0061).",58,60
+timor-leste,Timor-Leste,APAC,T3,Quarterly,provisional_derived,pending,,36,36
+turkmenistan,Turkmenistan,Central Asia,T4,Annual,provisional_derived,pending,,29,30
+ukraine,Ukraine,Europe,T1,Biweekly,capex_evidenced,swept,Syvash: $429.4m estimated capex; operating 2020.,55,57
+vanuatu,Vanuatu,APAC,T4,Semiannual,provisional_derived,pending,,33,34
+venezuela,Venezuela,LatAm,T2,Monthly,provisional_derived,pending,,33,33
+vietnam,Vietnam,APAC,T1,Biweekly,capex_evidenced,swept,Dau Tieng 1+2: matured cohort ratio 1.0; $397.6M verified,57,59
+yemen,Yemen,MENA,T3,Quarterly,provisional_derived,pending,,24,25
+zimbabwe,Zimbabwe,SS Africa,T2,Monthly,provisional_derived,pending,,48,50

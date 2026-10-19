@@ -1,0 +1,214 @@
+jurisdiction_slug,name,iso2,iso3,region,sweep_cadence,recompute_tier
+united-states,United States,us,usa,N. America,Weekly,T1
+china,China,cn,chn,APAC,Weekly,T1
+germany,Germany,de,deu,Europe,Weekly,T1
+india,India,in,ind,South Asia,Weekly,T1
+japan,Japan,jp,jpn,APAC,Weekly,T1
+united-kingdom,United Kingdom,gb,gbr,Europe,Weekly,T1
+france,France,fr,fra,Europe,Weekly,T1
+italy,Italy,it,ita,Europe,Weekly,T1
+brazil,Brazil,br,bra,LatAm,Weekly,T1
+canada,Canada,ca,can,N. America,Weekly,T1
+poland,Poland,pl,pol,Europe,Weekly,T1
+sweden,Sweden,se,swe,Europe,Weekly,T1
+switzerland,Switzerland,ch,che,Europe,Weekly,T1
+austria,Austria,at,aut,Europe,Biweekly,T1
+belgium,Belgium,be,bel,Europe,Biweekly,T1
+denmark,Denmark,dk,dnk,Europe,Weekly,T1
+singapore,Singapore,sg,sgp,APAC,Weekly,T1
+finland,Finland,fi,fin,Europe,Weekly,T1
+ireland,Ireland,ie,irl,Europe,Biweekly,T1
+portugal,Portugal,pt,prt,Europe,Biweekly,T1
+greece,Greece,gr,grc,Europe,Biweekly,T1
+israel,Israel,il,isr,MENA,Weekly,T1
+united-arab-emirates,United Arab Emirates,ae,are,MENA,Weekly,T1
+spain,Spain,es,esp,Europe,Weekly,T1
+turkiye,Türkiye,tr,tur,Europe,Biweekly,T1
+netherlands,Netherlands,nl,nld,Europe,Weekly,T1
+argentina,Argentina,ar,arg,LatAm,Biweekly,T1
+norway,Norway,no,nor,Europe,Weekly,T1
+russia,Russia,ru,rus,Europe,Biweekly,T1
+south-korea,South Korea,kr,kor,APAC,Weekly,T1
+australia,Australia,au,aus,APAC,Weekly,T1
+saudi-arabia,Saudi Arabia,sa,sau,MENA,Weekly,T1
+south-africa,South Africa,za,zaf,SS Africa,Weekly,T1
+mexico,Mexico,mx,mex,LatAm,Weekly,T1
+indonesia,Indonesia,id,idn,APAC,Biweekly,T1
+vietnam,Vietnam,vn,vnm,APAC,Biweekly,T1
+thailand,Thailand,th,tha,APAC,Biweekly,T1
+malaysia,Malaysia,my,mys,APAC,Biweekly,T1
+philippines,Philippines,ph,phl,APAC,Biweekly,T1
+bangladesh,Bangladesh,bd,bgd,South Asia,Biweekly,T1
+pakistan,Pakistan,pk,pak,South Asia,Biweekly,T1
+egypt,Egypt,eg,egy,MENA,Biweekly,T1
+nigeria,Nigeria,ng,nga,SS Africa,Weekly,T1
+colombia,Colombia,co,col,LatAm,Biweekly,T1
+chile,Chile,cl,chl,LatAm,Biweekly,T1
+peru,Peru,pe,per,LatAm,Monthly,T2
+romania,Romania,ro,rou,Europe,Biweekly,T1
+czechia,Czechia,cz,cze,Europe,Biweekly,T1
+hungary,Hungary,hu,hun,Europe,Monthly,T2
+new-zealand,New Zealand,nz,nzl,APAC,Monthly,T2
+slovakia,Slovakia,sk,svk,Europe,Monthly,T2
+morocco,Morocco,ma,mar,MENA,Monthly,T2
+democratic-republic-of-congo,Democratic Republic of Congo,cd,cod,SS Africa,Biweekly,T1
+zambia,Zambia,zm,zmb,SS Africa,Monthly,T2
+zimbabwe,Zimbabwe,zw,zwe,SS Africa,Monthly,T2
+botswana,Botswana,bw,bwa,SS Africa,Quarterly,T3
+mongolia,Mongolia,mn,mng,APAC,Monthly,T2
+kazakhstan,Kazakhstan,kz,kaz,Central Asia,Monthly,T2
+uzbekistan,Uzbekistan,uz,uzb,Central Asia,Monthly,T2
+ecuador,Ecuador,ec,ecu,LatAm,Monthly,T2
+bolivia,Bolivia,bo,bol,LatAm,Quarterly,T3
+paraguay,Paraguay,py,pry,LatAm,Quarterly,T3
+guyana,Guyana,gy,guy,LatAm,Quarterly,T3
+qatar,Qatar,qa,qat,MENA,Biweekly,T1
+kuwait,Kuwait,kw,kwt,MENA,Monthly,T2
+oman,Oman,om,omn,MENA,Monthly,T2
+algeria,Algeria,dz,dza,MENA,Monthly,T2
+iran,Iran,ir,irn,MENA,Biweekly,T1
+iraq,Iraq,iq,irq,MENA,Monthly,T2
+angola,Angola,ao,ago,SS Africa,Biweekly,T1
+mozambique,Mozambique,mz,moz,SS Africa,Monthly,T2
+namibia,Namibia,na,nam,SS Africa,Quarterly,T3
+ghana,Ghana,gh,gha,SS Africa,Biweekly,T1
+kenya,Kenya,ke,ken,SS Africa,Biweekly,T1
+cote-divoire,Côte d'Ivoire,ci,civ,SS Africa,Monthly,T2
+senegal,Senegal,sn,sen,SS Africa,Monthly,T2
+tanzania,Tanzania,tz,tza,SS Africa,Monthly,T2
+guinea,Guinea,gn,gin,SS Africa,Quarterly,T3
+panama,Panama,pa,pan,LatAm,Monthly,T2
+costa-rica,Costa Rica,cr,cri,LatAm,Monthly,T2
+uruguay,Uruguay,uy,ury,LatAm,Monthly,T2
+dominican-republic,Dominican Republic,do,dom,LatAm,Monthly,T2
+guatemala,Guatemala,gt,gtm,LatAm,Quarterly,T3
+el-salvador,El Salvador,sv,slv,LatAm,Semiannual,T4
+ethiopia,Ethiopia,et,eth,SS Africa,Biweekly,T1
+rwanda,Rwanda,rw,rwa,SS Africa,Quarterly,T3
+iceland,Iceland,is,isl,Europe,Quarterly,T3
+estonia,Estonia,ee,est,Europe,Monthly,T2
+congo-republic,Congo Republic,cg,cog,SS Africa,Quarterly,T3
+ukraine,Ukraine,ua,ukr,Europe,Biweekly,T1
+azerbaijan,Azerbaijan,az,aze,Central Asia,Quarterly,T3
+georgia,Georgia,ge,geo,Central Asia,Quarterly,T3
+serbia,Serbia,rs,srb,Europe,Monthly,T2
+croatia,Croatia,hr,hrv,Europe,Monthly,T2
+slovenia,Slovenia,si,svn,Europe,Monthly,T2
+mauritius,Mauritius,mu,mus,SS Africa,Semiannual,T4
+fiji,Fiji,fj,fji,APAC,Quarterly,T3
+trinidad-tobago,Trinidad & Tobago,tt,tto,LatAm,Quarterly,T3
+jamaica,Jamaica,jm,jam,LatAm,Quarterly,T3
+cambodia,Cambodia,kh,khm,APAC,Monthly,T2
+sri-lanka,Sri Lanka,lk,lka,South Asia,Monthly,T2
+albania,Albania,al,alb,Europe,Semiannual,T4
+andorra,Andorra,ad,and,Europe,Annual,T4
+aruba,Aruba,aw,abw,LatAm,Annual,T4
+bahamas,Bahamas,bs,bhs,LatAm,Semiannual,T4
+bahrain,Bahrain,bh,bhr,MENA,Monthly,T2
+barbados,Barbados,bb,brb,LatAm,Semiannual,T4
+belize,Belize,bz,blz,LatAm,Annual,T4
+benin,Benin,bj,ben,SS Africa,Quarterly,T3
+bermuda,Bermuda,bm,bmu,N. America,Annual,T4
+bosnia-herzegovina,Bosnia & Herzegovina,ba,bih,Europe,Semiannual,T4
+bulgaria,Bulgaria,bg,bgr,Europe,Monthly,T2
+cameroon,Cameroon,cm,cmr,SS Africa,Quarterly,T3
+cabo-verde,Cabo Verde,cv,cpv,SS Africa,Semiannual,T4
+cayman-islands,Cayman Islands,ky,cym,LatAm,Annual,T4
+cook-islands,Cook Islands,ck,cok,APAC,Annual,T4
+curacao,Curaçao,cw,cuw,LatAm,Annual,T4
+cyprus,Cyprus,cy,cyp,Europe,Quarterly,T3
+eswatini,Eswatini,sz,swz,SS Africa,Semiannual,T4
+gabon,Gabon,ga,gab,SS Africa,Quarterly,T3
+guernsey,Guernsey,gg,ggy,Europe,Annual,T4
+honduras,Honduras,hn,hnd,LatAm,Semiannual,T4
+isle-of-man,Isle of Man,im,imn,Europe,Annual,T4
+jersey,Jersey,je,jey,Europe,Annual,T4
+jordan,Jordan,jo,jor,MENA,Monthly,T2
+latvia,Latvia,lv,lva,Europe,Monthly,T2
+lebanon,Lebanon,lb,lbn,MENA,Semiannual,T4
+liechtenstein,Liechtenstein,li,lie,Europe,Annual,T4
+lithuania,Lithuania,lt,ltu,Europe,Monthly,T2
+luxembourg,Luxembourg,lu,lux,Europe,Quarterly,T3
+maldives,Maldives,mv,mdv,South Asia,Semiannual,T4
+malta,Malta,mt,mlt,Europe,Quarterly,T3
+moldova,Moldova,md,mda,Europe,Semiannual,T4
+montenegro,Montenegro,me,mne,Europe,Semiannual,T4
+nicaragua,Nicaragua,ni,nic,LatAm,Semiannual,T4
+north-macedonia,North Macedonia,mk,mkd,Europe,Semiannual,T4
+papua-new-guinea,Papua New Guinea,pg,png,APAC,Quarterly,T3
+san-marino,San Marino,sm,smr,Europe,Annual,T4
+seychelles,Seychelles,sc,syc,SS Africa,Semiannual,T4
+saint-lucia,Saint Lucia,lc,lca,LatAm,Annual,T4
+suriname,Suriname,sr,sur,LatAm,Semiannual,T4
+togo,Togo,tg,tgo,SS Africa,Quarterly,T3
+turks-and-caicos,Turks and Caicos Islands,tc,tca,LatAm,Annual,T4
+uganda,Uganda,ug,uga,SS Africa,Monthly,T2
+taiwan,Taiwan,tw,twn,APAC,Biweekly,T1
+hong-kong,Hong Kong,hk,hkg,APAC,Biweekly,T1
+macau,Macau,mo,mac,APAC,Semiannual,T4
+cuba,Cuba,cu,cub,LatAm,Quarterly,T3
+north-korea,North Korea,kp,prk,APAC,Annual,T4
+venezuela,Venezuela,ve,ven,LatAm,Monthly,T2
+belarus,Belarus,by,blr,Europe,Monthly,T2
+syria,Syria,sy,syr,MENA,Quarterly,T3
+libya,Libya,ly,lby,MENA,Quarterly,T3
+myanmar,Myanmar,mm,mmr,APAC,Quarterly,T3
+afghanistan,Afghanistan,af,afg,South Asia,Quarterly,T3
+yemen,Yemen,ye,yem,MENA,Quarterly,T3
+sudan,Sudan,sd,sdn,MENA,Annual,T4
+south-sudan,South Sudan,ss,ssd,SS Africa,Annual,T4
+nepal,Nepal,np,npl,South Asia,Monthly,T2
+bhutan,Bhutan,bt,btn,South Asia,Quarterly,T3
+laos,Laos,la,lao,APAC,Monthly,T2
+armenia,Armenia,am,arm,Central Asia,Quarterly,T3
+kyrgyzstan,Kyrgyzstan,kg,kgz,Central Asia,Quarterly,T3
+tajikistan,Tajikistan,tj,tjk,Central Asia,Quarterly,T3
+turkmenistan,Turkmenistan,tm,tkm,Central Asia,Annual,T4
+mali,Mali,ml,mli,SS Africa,Semiannual,T4
+niger,Niger,ne,ner,SS Africa,Semiannual,T4
+chad,Chad,td,tcd,SS Africa,Annual,T4
+burkina-faso,Burkina Faso,bf,bfa,SS Africa,Semiannual,T4
+somalia,Somalia,so,som,SS Africa,Semiannual,T4
+eritrea,Eritrea,er,eri,SS Africa,Annual,T4
+haiti,Haiti,ht,hti,LatAm,Annual,T4
+tunisia,Tunisia,tn,tun,MENA,Monthly,T2
+madagascar,Madagascar,mg,mdg,SS Africa,Quarterly,T3
+malawi,Malawi,mw,mwi,SS Africa,Quarterly,T3
+mauritania,Mauritania,mr,mrt,SS Africa,Quarterly,T3
+liberia,Liberia,lr,lbr,SS Africa,Quarterly,T3
+sierra-leone,Sierra Leone,sl,sle,SS Africa,Quarterly,T3
+djibouti,Djibouti,dj,dji,SS Africa,Quarterly,T3
+equatorial-guinea,Equatorial Guinea,gq,gnq,SS Africa,Semiannual,T4
+brunei,Brunei,bn,brn,APAC,Quarterly,T3
+timor-leste,Timor-Leste,tl,tls,APAC,Quarterly,T3
+palestine,Palestine,ps,pse,MENA,Quarterly,T3
+burundi,Burundi,bi,bdi,SS Africa,Semiannual,T4
+central-african-republic,Central African Republic,cf,caf,SS Africa,Semiannual,T4
+gambia,Gambia,gm,gmb,SS Africa,Semiannual,T4
+guinea-bissau,Guinea-Bissau,gw,gnb,SS Africa,Semiannual,T4
+lesotho,Lesotho,ls,lso,SS Africa,Semiannual,T4
+comoros,Comoros,km,com,SS Africa,Semiannual,T4
+sao-tome-principe,São Tomé & Príncipe,st,stp,SS Africa,Semiannual,T4
+kiribati,Kiribati,ki,kir,APAC,Annual,T4
+marshall-islands,Marshall Islands,mh,mhl,APAC,Annual,T4
+micronesia,Micronesia,fm,fsm,APAC,Annual,T4
+nauru,Nauru,nr,nru,APAC,Semiannual,T4
+palau,Palau,pw,plw,APAC,Annual,T4
+samoa,Samoa,ws,wsm,APAC,Annual,T4
+solomon-islands,Solomon Islands,sb,slb,APAC,Annual,T4
+tonga,Tonga,to,ton,APAC,Annual,T4
+tuvalu,Tuvalu,tv,tuv,APAC,Semiannual,T4
+vanuatu,Vanuatu,vu,vut,APAC,Semiannual,T4
+antigua-barbuda,Antigua & Barbuda,ag,atg,LatAm,Semiannual,T4
+dominica,Dominica,dm,dma,LatAm,Semiannual,T4
+grenada,Grenada,gd,grd,LatAm,Annual,T4
+saint-kitts-nevis,Saint Kitts & Nevis,kn,kna,LatAm,Annual,T4
+saint-vincent-grenadines,Saint Vincent & the Grenadines,vc,vct,LatAm,Annual,T4
+monaco,Monaco,mc,mco,Europe,Annual,T4
+holy-see,Holy See,va,vat,Europe,Annual,T4
+greenland,Greenland,gl,,N. America,Quarterly,T3
+kosovo,Kosovo,XK,XKX,Europe,Pending,T3
+puerto-rico,Puerto Rico,PR,PRI,Americas,Pending,T3
+faroe-islands,Faroe Islands,FO,FRO,Europe,Pending,T3
+new-caledonia,New Caledonia,NC,NCL,APAC,Pending,T3
+niue,Niue,NU,NIU,APAC,Pending,T3

@@ -1,3 +1,4 @@
+import payload from '../data/TFCI_frontend_payload_v2.json';
 import { formatCapital } from "./lib/formatCurrency";
 import DashboardTable from './components/DashboardTable';
 import DashboardClient from './components/DashboardClient';
@@ -7,14 +8,14 @@ export const metadata = {
 };
 
 async function getMetaData() {
-  const res = await Promise.resolve({ ok: true, json: async () => ({ jurisdictions: [] }) });
+  const res = const data = payload;
   if (!res.ok) throw new Error("Failed to fetch meta");
   return res.json();
 }
 
 async function getJurisdictions() {
   // Fetch all 208 rows so the client component can sort/filter instantly
-  const res = await Promise.resolve({ ok: true, json: async () => ({ jurisdictions: [] }) });
+  const res = const data = payload;
   if (!res.ok) throw new Error("Failed to fetch jurisdictions");
   return res.json();
 }
@@ -64,7 +65,7 @@ export default async function Home() {
         </section>
 
         {/* Pass data to the interactive client component */}
-        <DashboardClient jurisdictions={[]} />
+        <DashboardClient jurisdictions={payload?.jurisdictions || payload || []} />
       </div>
           </div>
     </main>

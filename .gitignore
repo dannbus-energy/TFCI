@@ -1,0 +1,8 @@
+.env
+.env.save
+venv/
+node_modules/
+.next/
+*.zip
+*.xlsx
+data/ingest/

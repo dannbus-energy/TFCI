@@ -12,14 +12,14 @@ export default function DashboardClient({ jurisdictions }: { jurisdictions: any[
   return (
     <div className="space-y-8">
       <Map 
-        jurisdictions={jurisdictions} 
+        jurisdictions={jurisdictions || []} 
         selectedJurisdiction={selectedJurisdiction}
           setSelectedJurisdiction={setSelectedJurisdiction} 
         onSelectJurisdiction={setSelectedJurisdiction} 
       />
       // @ts-ignore
           <DashboardTable 
-        jurisdictions={jurisdictions} 
+        jurisdictions={jurisdictions || []} 
         selectedJurisdiction={selectedJurisdiction}
           setSelectedJurisdiction={setSelectedJurisdiction} 
         onSelectJurisdiction={setSelectedJurisdiction} 

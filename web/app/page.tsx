@@ -64,7 +64,7 @@ export default async function Home() {
         </section>
 
         {/* Pass data to the interactive client component */}
-        <DashboardClient jurisdictions={jurisdictions} />
+        <DashboardClient jurisdictions={[]} />
       </div>
           </div>
     </main>

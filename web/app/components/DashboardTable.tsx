@@ -23,7 +23,7 @@ export default function DashboardTable({ jurisdictions, selectedJurisdiction, se
   const bands = ['HIGH', 'MEDIUM', 'LOW'];
 
   const filteredJurisdictions = useMemo(() => {
-    let filtered = [...jurisdictions];
+    let filtered = [...(jurisdictions || [])];
     
     if (searchTerm) {
       filtered = filtered.filter(j => 

@@ -15,9 +15,11 @@ export default function DashboardTable({ jurisdictions, selectedJurisdiction, se
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedRegion, setSelectedRegion] = useState<string>('all');
   const [selectedBand, setSelectedBand] = useState<string>('all');
+  const safeJurisdictions = Array.isArray(jurisdictions) ? jurisdictions : [];
+
   const [sortConfig, setSortConfig] = useState<{ key: string; direction: 'asc' | 'desc' } | null>(null);
 
-  const regions = useMemo(() => [...new Set(jurisdictions.map(j => j.region).filter(Boolean))].sort(), [jurisdictions]);
+  const regions = useMemo(() => [...new Set(safeJurisdictions.map(j => j.region).filter(Boolean))].sort(), [safeJurisdictions]);
   const bands = ['HIGH', 'MEDIUM', 'LOW'];
 
   const filteredJurisdictions = useMemo(() => {
